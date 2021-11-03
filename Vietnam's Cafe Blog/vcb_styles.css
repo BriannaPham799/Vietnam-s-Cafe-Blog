@@ -7,9 +7,12 @@ html{
 	font-size: 16px;
 }
 
+body{
+	width: 100%;
+}
 
 /**Navigation Bar Style**/
-nav{
+header nav{
 	width: 100%;
 	background-color: black;
 	overflow:hidden;
@@ -90,10 +93,15 @@ nav{
 /**Hanoi**/
 #hanoiImage, #hanoiIntro{
 	float: left;
-	margin: 5% 5% 0 5%;
 }
+
+#hanoiImage{
+	margin: 5% 0 0 6%;
+}
+
 #hanoiIntro{
-	padding-top: 5%;
+	margin-left: 4%;
+	padding-top: 10%;
 	width: 40%;
 	height: 350px;
 	vertical-align: baseline;
@@ -116,11 +124,16 @@ nav{
 /**Saigon**/
 #saigonImage, #saigonIntro{
 	float: right;
-	margin: 0 5% 5% 0;
 }
+
+#saigonImage{
+	margin: 1% 6% 5% 0;
+}
+
 #saigonIntro{
-	padding-top: 5%;
-	width: 40%;
+	padding-top: 10%;
+	padding-right: 3%;
+	width: 42%;
 	height: 350px;
 	vertical-align: baseline;
 	font-size: 25px;
@@ -144,9 +157,10 @@ nav{
 	float: left;
 }
 
+
 #top10Image{
 	margin-left: 5%;
-	margin-right: -1.5%;
+	margin-right: 1%;
 }
 
 #top10Intro{
@@ -155,7 +169,7 @@ nav{
 	padding-left: 2%;
 	padding-top: 8%;
 	font-size: 25px;
-	height: 280px;
+	height: 400px;
 	color: white;
 }
 
@@ -199,7 +213,7 @@ nav{
 
 /**Lastest Reviews**/
 .home_LastestReviews{
-	padding: 3% 0 3% 3%;
+	padding: 3% 0 3% 8%;
 	margin-bottom: 10%;
 	font-size: 25px;
 	background-color: rgb(119, 80, 73);
@@ -212,10 +226,14 @@ nav{
 	text-align: center;
 }
 
-.lastestReviewsIntro h3 a{
+.lastestReviewsIntro h3{
 	text-decoration: none;
 	color: white;
 	font-size: 40px;
+}
+
+.lastestReviewsIntro p{
+	margin-bottom: 2%;
 }
 
  .lastestReviewsTitle p a{
@@ -245,7 +263,7 @@ nav{
 }
 
 .lastestReviewsTitle p:nth-child(2), .lastestReviewsTitle p:last-child {
-	margin-left: 20%;
+	margin-left: 17%;
 } 
 #lastestReviewsImage1:hover, #lastestReviewsImage2:hover, #lastestReviewsImage3:hover{
 	opacity: 0.5;
@@ -259,7 +277,7 @@ nav{
 
 /**Footer**/
 /**Navigation Bar Style**/
-nav{
+footer nav{
 	width: 100%;
 	background-color: black;
 	overflow:hidden;
