@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+
+
+
+
+/*Coffee-based*/
+
+.coffee_based{
+	width: 100%;
+	height: 100vh;
+	background-color:rgba(90, 44, 8, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.coffee_based_images_slider{
+	position: relative;
+	width: 25vw;
+	height: 60vh;
+	margin: 5%;
+	box-shadow: 0 10px 10px #000;
+	background-image: url(COFFEE_BASED/mocha.jpg);
+	background-size: cover;
+	background-position: center;
+	animation: 10s slider infinite;
+}
+
+@keyframes slider{
+	0%{
+		background-image: url(COFFEE_BASED/latte.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+	50%{
+		background-image: url(COFFEE_BASED/mocha.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+.coffee_based_text{
+	width: 550px;
+	max-width: 100%;
+	padding: 0 10px;
+}
+
+.coffee_based_content{
+	width: 1280px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.coffee_based_text h1{
+	color: #fbd2a7;
+	font-size: 45px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+
+.coffee_based_text p{
+	color: #d7d3cf;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	margin-bottom: 45px;
+}
+
+.coffee_based_text p strong{
+	color: #f0ece8;
+	font-size: 16px;
+}
+.coffee_based_text button{
+	background-color:#fbd2a7;
+	color: black;
+	border: 2px solid transparent;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.coffee_based_text button:hover{
+	transform: scale(1.2);
+	background-color: transparent;
+	border: 2px solid #fbd2a7;
+	color: #fbd2a7;
+	transition: .4s;
+	cursor: pointer;
+}
+
+/*Non-coffee*/
+
+.non-coffee{
+	width: 100%;
+	height: 100vh;
+	background-color:rgba(90, 44, 8, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.non-coffee_images_slider{
+	position: relative;
+	width: 25vw;
+	height: 60vh;
+	margin: 5%;
+	box-shadow: 0 10px 10px #000;
+	background-image: url(NON-COFFEE/matcha-latte.jpg);
+	background-size: cover;
+	background-position: center;
+	animation: 10s movement infinite;
+}
+
+@keyframes movement{
+	0%{
+		background-image: url(NON-COFFEE/white_chocolate.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+	50%{
+		background-image: url(NON-COFFEE/matcha-latte.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+.non-coffee_text{
+	width: 550px;
+	max-width: 100%;
+	padding: 0 10px;
+}
+
+.non-coffee_content{
+	width: 1280px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.non-coffee_text h1{
+	color: #fbd2a7;
+	font-size: 45px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+
+.non-coffee_text p{
+	color: #d7d3cf;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	margin-bottom: 45px;
+}
+
+
+.non-coffee_text button{
+	background-color:#fbd2a7;
+	color: black;
+	border: 2px solid transparent;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.non-coffee_text button:hover{
+	transform: scale(1.2);
+	background-color: transparent;
+	border: 2px solid #fbd2a7;
+	color: #fbd2a7;
+	transition: .4s;
+	cursor: pointer;
+}
