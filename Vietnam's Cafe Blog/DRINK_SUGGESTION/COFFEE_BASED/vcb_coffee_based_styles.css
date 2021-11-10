@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+
+html{
+	background-color: rgba(90, 44, 8, 0.8) !important;
+}
+
+/*Cards Styles*/
+
+.mocha, .latte{
+	float: left;
+	margin-bottom: 10%;
+}
+
+/*Mocha*/
+.mocha{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 20%;
+	height: 350px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.mocha:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_mocha{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.mocha:hover .imgBox_mocha{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_mocha img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.mocha .mocha_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.mocha .mocha_details .mocha_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.mocha .mocha_details .mocha_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.mocha .mocha_details .mocha_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+/*Latte*/
+.latte{
+	margin-top: 10%;
+	margin-left: 25%;
+	position: relative;
+	width: 20%;
+	height: 350px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.latte:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_latte{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.latte:hover .imgBox_latte{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_latte img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.latte .latte_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.latte .latte_details .latte_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.latte .latte_details .latte_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.latte .latte_details .latte_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+.mocha::after, .latte::after{
+	clear: both;
+	content: "";
+	display: table;
+}
