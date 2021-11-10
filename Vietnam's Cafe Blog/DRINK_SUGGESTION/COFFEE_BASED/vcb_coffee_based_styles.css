@@ -4,9 +4,172 @@
 html{
 	background-color: rgba(90, 44, 8, 0.8) !important;
 }
+/*Heading Styles*/
+body>h1{
+	color: #fbd2a7;
+	font-size: 55px;
+	font-weight: 700;
+	margin: 5% 0 0 5%;
+	text-shadow: 10px 20px 30px black;
+}
+
 
 /*Cards Styles*/
+/*First Row*/
+.vietnam_traditional_coffee, .egg_coffee{
+	float: left;
+	margin-bottom: 10%;
+}
 
+/*VIETNAM's TRADITIONAL COFFEE*/
+.vietnam_traditional_coffee{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.vietnam_traditional_coffee:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_vietnam_traditional_coffee{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.vietnam_traditional_coffee:hover .imgBox_vietnam_traditional_coffee{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_vietnam_traditional_coffee img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.vietnam_traditional_coffee .vietnam_traditional_coffee_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.vietnam_traditional_coffee .vietnam_traditional_coffee_details .vietnam_traditional_coffee_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.vietnam_traditional_coffee .vietnam_traditional_coffee_details .vietnam_traditional_coffee_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.vietnam_traditional_coffee .vietnam_traditional_coffee_details .vietnam_traditional_coffee_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+/*Egg Coffee*/
+.egg_coffee{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.egg_coffee:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_egg_coffee{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.egg_coffee:hover .imgBox_egg_coffee{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_egg_coffee img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.egg_coffee .egg_coffee_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.egg_coffee .egg_coffee_details .egg_coffee_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.egg_coffee .egg_coffee_details .egg_coffee_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.egg_coffee .egg_coffee_details .egg_coffee_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+.vietnam_traditional_coffee::after, .egg_coffee::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*Second Row*/
 .mocha, .latte{
 	float: left;
 	margin-bottom: 10%;
@@ -17,8 +180,8 @@ html{
 	margin-top: 10%;
 	margin-left: 15%;
 	position: relative;
-	width: 20%;
-	height: 350px;
+	width: 25%;
+	height: 450px;
 	background: #fff;
 	transform-style: preserve-3d;
 	transform: perspective(1000px);
@@ -86,10 +249,10 @@ html{
 /*Latte*/
 .latte{
 	margin-top: 10%;
-	margin-left: 25%;
+	margin-left: 15%;
 	position: relative;
-	width: 20%;
-	height: 350px;
+	width: 25%;
+	height: 450px;
 	background: #fff;
 	transform-style: preserve-3d;
 	transform: perspective(1000px);
@@ -155,6 +318,160 @@ html{
 }
 
 .mocha::after, .latte::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*Third Row*/
+.espresso, .cappuccino{
+	float: left;
+	margin-bottom: 10%;
+}
+
+/*Espresso*/
+.espresso{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.espresso:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_espresso{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.espresso:hover .imgBox_espresso{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_espresso img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.espresso .espresso_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.espresso .espresso_details .espresso_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.espresso .espresso_details .espresso_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.espresso .espresso_details .espresso_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+/*Cappuccino*/
+.cappuccino{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.cappuccino:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_cappuccino{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.cappuccino:hover .imgBox_cappuccino{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_cappuccino img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.cappuccino .cappuccino_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.cappuccino .cappuccino_details .cappuccino_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.cappuccino .cappuccino_details .cappuccino_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.cappuccino .cappuccino_details .cappuccino_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+.espresso::after, .cappuccino::after{
 	clear: both;
 	content: "";
 	display: table;
