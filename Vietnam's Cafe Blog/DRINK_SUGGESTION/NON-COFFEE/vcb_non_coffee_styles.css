@@ -1,0 +1,478 @@
+@charset "utf-8";
+
+
+html{
+	background-color: rgba(90, 44, 8, 0.8) !important;
+}
+/*Heading Styles*/
+body>h1{
+	color: #fbd2a7;
+	font-size: 55px;
+	font-weight: 700;
+	margin: 5% 0 0 5%;
+	text-shadow: 10px 20px 30px black;
+}
+
+
+/*Cards Styles*/
+/*First Row*/
+.white_chocolate, .chai_tea_latte{
+	float: left;
+	margin-bottom: 10%;
+}
+
+/*White chocolate*/
+.white_chocolate{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.white_chocolate:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_white_chocolate{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.white_chocolate:hover .imgBox_white_chocolate{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_white_chocolate img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.white_chocolate .white_chocolate_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.white_chocolate .white_chocolate_details .white_chocolate_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.white_chocolate .white_chocolate_details .white_chocolate_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.white_chocolate .white_chocolate_details .white_chocolate_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+/*Chai tea latte*/
+.chai_tea_latte{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.chai_tea_latte:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_chai_tea_latte{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.chai_tea_latte:hover .imgBox_chai_tea_latte{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_chai_tea_latte img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.chai_tea_latte .chai_tea_latte_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+.white_chocolate::after, .chai_tea_latte::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*Second Row*/
+.matcha_latte, .avocado_smoothie{
+	float: left;
+	margin-bottom: 10%;
+}
+
+/*matcha_latte*/
+.matcha_latte{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.matcha_latte:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_matcha_latte{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.matcha_latte:hover .imgBox_matcha_latte{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_matcha_latte img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.matcha_latte .matcha_latte_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.matcha_latte .matcha_latte_details .matcha_latte_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.matcha_latte .matcha_latte_details .matcha_latte_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.matcha_latte .matcha_latte_details .matcha_latte_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+/*avocado_smoothie*/
+.avocado_smoothie{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.avocado_smoothie:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_avocado_smoothie{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.avocado_smoothie:hover .imgBox_avocado_smoothie{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_avocado_smoothie img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.avocado_smoothie .avocado_smoothie_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+.matcha_latte::after, .avocado_latte::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*Third Row*/
+.orange_juice, .peach_green_tea{
+	float: left;
+	margin-bottom: 10%;
+}
+
+/*orange_juice*/
+.orange_juice{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.orange_juice:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_orange_juice{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.orange_juice:hover .imgBox_orange_juice{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_orange_juice img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.orange_juice .orange_juice_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.orange_juice .orange_juice_details .orange_juice_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.orange_juice .orange_juice_details .orange_juice_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.orange_juice .orange_juice_details .orange_juice_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+/*peach_green_tea*/
+.peach_green_tea{
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	width: 25%;
+	height: 450px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+	transition: 1s;
+}
+
+.peach_green_tea:hover{
+	transform: translateX(50%);
+}
+
+
+.imgBox_peach_green_tea{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	background: #000;
+	transition: 1s;
+}
+
+.peach_green_tea:hover .imgBox_peach_green_tea{
+	transform: rotateY(-180deg) ;
+}
+
+.imgBox_peach_green_tea img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+}
+
+.peach_green_tea .peach_green_tea_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.peach_green_tea .peach_green_tea_details .peach_green_tea_contents{
+	display: flex;
+	margin-top: 5%;
+	flex-direction: column;
+}
+
+.peach_green_tea .peach_green_tea_details .peach_green_tea_contents h2{
+	font-weight: 700;
+	line-height: 2em;
+}
+
+.peach_green_tea .peach_green_tea_details .peach_green_tea_contents p{
+    color: #e21212;
+    font-size: 1em;
+}
+
+.orange_juice::after, .peach_green_tea::after{
+	clear: both;
+	content: "";
+	display: table;
+}
