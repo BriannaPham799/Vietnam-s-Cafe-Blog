@@ -90,3 +90,13 @@ button:hover{
 	transition: .4s;
 	cursor: pointer;
 }
+
+/*Apply for large laptops and desktop*/
+@media only screen  and (min-width: 1600px){
+.about .content img{
+	height: auto;
+	width: 45%;
+	max-width: 100%;
+
+}
+}
