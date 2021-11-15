@@ -483,3 +483,59 @@ body>h1{
 	content: "";
 	display: table;
 }
+
+/*Apply for large laptops and desktop*/
+@media only screen  and (min-width: 1600px){
+.vietnam_traditional_coffee, .egg_coffee, .mocha, 
+.latte, .espresso, .cappuccino
+{
+	height: 550px;
+}
+
+.vietnam_traditional_coffee .vietnam_traditional_coffee_details .vietnam_traditional_coffee_contents h2{
+	font-size: 1.5em;
+}
+
+.vietnam_traditional_coffee .vietnam_traditional_coffee_details .vietnam_traditional_coffee_contents p{
+    font-size: 1.5em;
+}
+
+.egg_coffee .egg_coffee_details .egg_coffee_contents h2{
+	font-size: 1.5em;
+}
+
+.egg_coffee .egg_coffee_details .egg_coffee_contents p{
+   font-size: 1.5em;
+}
+.mocha .mocha_details .mocha_contents h2{
+	font-size: 1.5em;
+}
+
+.mocha .mocha_details .mocha_contents p{
+    font-size: 1.5em;
+}
+
+.latte .latte_details .latte_contents h2{
+	font-size: 1.5em;
+}
+
+.latte .latte_details .latte_contents p{
+    font-size: 1.5em;
+}
+
+.espresso .espresso_details .espresso_contents h2{
+	font-size: 1.5em;
+}
+
+.espresso .espresso_details .espresso_contents p{
+    font-size: 1.5em;
+}
+
+.cappuccino .cappuccino_details .cappuccino_contents h2{
+	font-size: 1.5em;
+}
+
+.cappuccino .cappuccino_details .cappuccino_contents p{
+    font-size: 1.5em;
+}
+}
