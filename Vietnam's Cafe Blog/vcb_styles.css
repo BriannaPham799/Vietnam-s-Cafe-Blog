@@ -91,9 +91,29 @@ header nav{
 	background-color: black;
 	cursor: pointer;
 	padding: 5px;
+	width: 15%;
+	height: 150px;
 }
 
+/*Apply for large laptops and desktop*/
+@media only screen  and (min-width: 1600px){
+.headerNavigationBar>li{
+	display: inline-block;
+	font-size: 20px;
+	padding-right: 150px;
+}
 
+.header_logo{
+	float: left;
+	background-color: black;
+	cursor: pointer;
+	padding: 5px;
+	width: 15%;
+	height: 180px;
+}
+
+}
+	
 
 /**Footer**/
 /**Navigation Bar Style**/
@@ -139,6 +159,17 @@ footer nav{
 	float: left;
 	background-color: black;
 	cursor: pointer;
+}
+
+/*Apply for large laptops and desktop*/
+@media only screen  and (min-width: 1600px){
+.footerNavigationBar li{
+	display: inline-block;
+	font-size: 25px;
+	padding-left: 60px;
+	padding-right: 50px;
+}
+
 }
 
 footer::after{
