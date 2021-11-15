@@ -49,15 +49,7 @@
 	height: 400px;
 	margin: 5% 0 0 6%;
 }
-/*Apply for large laptops and desktop*/
-@media only screen  and (min-width: 1600px){
-#hanoiImage{
-	width: 44%;
-	height: 450px;
-	margin: 5% 0 0 6%;
-}
 
-}
 #hanoiIntro{
 	margin-left: 4%;
 	padding-top: 10%;
@@ -79,7 +71,17 @@
 	clear: both;
 	display: table;
 }
-
+/*Apply for large laptops and desktop*/
+@media only screen  and (min-width: 1600px){
+#hanoiImage{
+	width: 44%;
+	height: 450px;
+	margin: 5% 0 0 6%;
+}
+#hanoiIntro{
+	font-size: 30px;
+}
+}
 /**Saigon**/
 #saigonImage, #saigonIntro{
 	float: right;
@@ -91,15 +93,6 @@
 	height:450px;
 }
 
-/*Apply for large laptops and desktop*/
-@media only screen  and (min-width: 1600px){
-#saigonImage{
-	margin: 1% 6% 5% 0;
-	width:43%;
-	height:480px;
-}
-
-}
 
 #saigonIntro{
 	padding-top: 10%;
@@ -122,7 +115,17 @@
 	clear: both;
 	display: table;
 }
-
+/*Apply for large laptops and desktop*/
+@media only screen  and (min-width: 1600px){
+#saigonImage{
+	margin: 1% 6% 5% 0;
+	width:43%;
+	height:480px;
+}
+#saigonIntro{
+	font-size: 30px;
+}
+}
 /**Top10**/
 #top10Image, #top10Intro{
 	float: left;
