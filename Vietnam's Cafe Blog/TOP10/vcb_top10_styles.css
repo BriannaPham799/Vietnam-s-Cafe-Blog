@@ -67,6 +67,10 @@
 	box-shadow: 0 10px 20px #000;
 }
 /*hanoi_top1_cafe*/
+#hanoi_top1_image{
+	width:30%;
+	height:400px;
+}
 #hanoi_top1_image, #hanoi_top1_cafe_Info{
 	float: left;
 }
@@ -90,6 +94,11 @@
 }
 
 /*hanoi_top2_cafe*/
+#hanoi_top2_image{
+	width:30%;
+	height:400px;
+}
+
 #hanoi_top2_image, #hanoi_top2_cafe_Info{
 	float: left;
 }
@@ -113,6 +122,11 @@
 }
 
 /*hanoi_top3_cafe*/
+#hanoi_top3_image{
+	width:30%;
+	height:400px;
+}
+
 #hanoi_top3_image, #hanoi_top3_cafe_Info{
 	float: left;
 }
@@ -136,6 +150,11 @@
 }
 
 /*hanoi_top4_cafe*/
+#hanoi_top4_image{
+	width:30%;
+	height:400px;
+}
+
 #hanoi_top4_image, #hanoi_top4_cafe_Info{
 	float: left;
 }
@@ -159,6 +178,11 @@
 }
 
 /*hanoi_top5_cafe*/
+#hanoi_top5_image{
+	width:30%;
+	height:400px;
+}
+
 #hanoi_top5_image, #hanoi_top5_cafe_Info{
 	float: left;
 }
@@ -212,6 +236,11 @@
 	box-shadow: 0 10px 20px #000;
 }
 /*saigon_top1_cafe*/
+#saigon_top1_image{
+	width:30%;
+	height:400px;
+}
+
 #saigon_top1_image, #saigon_top1_cafe_Info{
 	float: left;
 }
@@ -235,6 +264,10 @@
 }
 
 /*saigon_top2_cafe*/
+#saigon_top2_image{
+	width:30%;
+	height:400px;
+}
 #saigon_top2_image, #saigon_top2_cafe_Info{
 	float: left;
 }
@@ -258,6 +291,10 @@
 }
 
 /*saigon_top3_cafe*/
+#saigon_top3_image{
+	width:30%;
+	height:400px;
+}
 #saigon_top3_image, #saigon_top3_cafe_Info{
 	float: left;
 }
@@ -281,11 +318,15 @@
 }
 
 /*saigon_top4_cafe*/
+#saigon_top4_image{
+	width:30%;
+	height:400px;
+}
 #saigon_top4_image, #saigon_top4_cafe_Info{
 	float: left;
 }
 
-#hanoi_top4_cafe_Info{
+#saigon_top4_cafe_Info{
 	margin-top: 10%;
 	margin-left: 10%;
 	font-size: 25px;
@@ -304,6 +345,10 @@
 }
 
 /*saigon_top5_cafe*/
+#saigon_top5_image{
+	width:30%;
+	height:400px;
+}
 #saigon_top5_image, #saigon_top5_cafe_Info{
 	float: left;
 }
@@ -324,4 +369,16 @@
 	clear: both;
 	display: table;
 	content: "";
+}
+
+/*Apply for large laptops and desktop*/
+@media only screen  and (min-width: 1600px){
+#hanoi_top1_image, #hanoi_top2_image, #hanoi_top3_image,
+#hanoi_top4_image, #hanoi_top5_image{
+	height: 450px;
+}
+#saigon_top1_image, #saigon_top2_image, #saigon_top3_image,
+#saigon_top4_image, #saigon_top5_image{
+	height: 450px;
+}
 }
