@@ -7,14 +7,42 @@
 		Filename:vcb_styles.css
 	*/
 
-html{
+html {
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
+}
+
+/* Body Style */
+.body {
+	font-size: 1rem;
+  line-height: 1.6;
 	color: #111111;
 	background-color: #fffcfc;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto, sans-serif !important;
+	padding: 0;
+	margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: inherit;
+}
+
+.body h1 {
+  font-size: 2.25rem;
+}
+
+.body h2 {
+  font-size: 1.75rem;
+	color: #6b4748;
+}
+
+.body h3 {
+  font-size: 1.5rem;
+}
 
 
 /**Navigation Bar Style**/
@@ -41,7 +69,7 @@ header nav{
 
 .headerNavigationBar>li>a{
 	text-decoration: none;
-	padding: 12px 2px;
+	padding: 20px 5px;
 	text-align: center;
 	color: white;
 	display: block;
@@ -88,12 +116,13 @@ header nav{
 	display:block;
 }
 
-.header_logo {
-	padding: 15px;
-	width: 10%;
+.header_logo{
 	float: left;
 	background-color: black;
 	cursor: pointer;
+	padding: 5px;
+	width: 15%;
+	height: 150px;
 }
 
 /*Apply for large laptops and desktop*/
@@ -104,7 +133,7 @@ header nav{
 	padding-right: 150px;
 }
 
-.header_logo {
+.header_logo{
 	float: left;
 	background-color: black;
 	cursor: pointer;
@@ -156,7 +185,6 @@ footer nav{
 }
 
 .footer_logo{
-	padding: 15px;
 	width: 10%;
 	float: left;
 	background-color: black;

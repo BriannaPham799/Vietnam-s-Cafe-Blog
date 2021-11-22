@@ -13,9 +13,10 @@
 	font-weight: 600;
 	margin: 0;
 	text-align: center;
+	font-family: Roboto, sans-serif !important;
 }
 #headerSlogan{
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .header{
@@ -25,7 +26,7 @@
 	-webkit-background-size:  cover;
 	background-size: cover;
 	width: 100%;
-	height: 50vh;
+	height: 45vh;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display:  -ms-flex;
@@ -56,14 +57,16 @@
 	width: 40%;
 	height: 350px;
 	vertical-align: baseline;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: normal;
 
 }
 
 #hanoiIntro h3 a{
 	text-decoration: none;
-	color: #5C3317;
+	color: #6b4748 !important;
+	font-family: Roboto, sans-serif !important;
+	font-size: 30px;
 }
 
 .home_Hanoi::after{
@@ -100,14 +103,16 @@
 	width: 42%;
 	height: 350px;
 	vertical-align: baseline;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: normal;
 
 }
 
 #saigonIntro h3 a{
 	text-decoration: none;
-	color: #5C3317;
+	color: #6b4748 !important;
+	font-family: Roboto, sans-serif !important;
+	font-size: 30px;
 }
 
 .home_Saigon::after{
@@ -143,7 +148,7 @@
 	width: 43%;
 	padding-left: 2%;
 	padding-top: 8%;
-	font-size: 25px;
+	font-size: 22px;
 	height: 390px;
 	color: white;
 }
@@ -151,6 +156,8 @@
 #top10Intro h3 a{
 	text-decoration: none;
 	color: white;
+	font-family: Roboto, sans-serif !important;
+	font-size: 30px;
 }
 
 .home_Top10::after{
@@ -170,24 +177,29 @@
 #drinkSuggestionsImage{
 	margin-top: 5%;
 	margin-left: 5%;
-	 width:89%;
-	 height:450px;
+	width:89%;
+	height:450px;
 
 }
 
 
 #drinkSuggestionsTitle a{
 	text-decoration: none;
+	text-align: center;
 	color: #5C3317;
+	font-family: Roboto, sans-serif !important;
+	font-size: 30px;
 }
 #drinkSuggestionsIntro{
 	margin-bottom: 15%;
+	font-size: 22px;
 }
 
 #drinkSuggestionsTitle, #drinkSuggestionsIntro{
-	font-size: 20px;
+	font-size: 22px;
 	margin-top: 1%;
 	margin-left: 5%;
+	text-align: center;
 }
 
 #drinkSuggestionsIntro::after{
@@ -217,7 +229,7 @@
 /**Lastest Reviews**/
 .home_LastestReviews{
 	padding: 3% 0 3% 8%;
-	margin-bottom: 10%;
+	margin-bottom: 20%;
 	font-size: 25px;
 	background-color: rgb(119, 80, 73);
 	width: 100%;
@@ -226,26 +238,32 @@
 }
 
 .lastestReviewsIntro{
-	text-align: center;
+	text-align: left;
+	padding: 5px;
 }
 
 .lastestReviewsIntro h3{
+	text-align: left;
 	text-decoration: none;
 	color: white;
-	font-size: 40px;
+	font-size: 45px;
+	font-weight: 500;
+	font-family: Roboto, sans-serif !important;
+	
 }
 
  .lastestReviewsTitle p a{
  	text-decoration: none;
- 	font-weight: 700;
+ 	font-weight: 500;
  	color: white;
  	font-size: 28px;
+	font-family: Roboto, sans-serif !important;
  }
 .lastestReviewsImage img{
 	width: 30%;
 	height: 450px;
 	float: left;
-	padding: 10px;
+	padding: 5px;
 }
 
 .lastestReviewsImage::after{
@@ -258,11 +276,11 @@
 }
 
 .lastestReviewsTitle p:first-child{
-	margin-left: 0.6%;
+	margin-left: 0.5%;
 }
 
 .lastestReviewsTitle p:nth-child(2), .lastestReviewsTitle p:last-child {
-	margin-left: 17%;
+	margin-left: 18%;
 } 
 #lastestReviewsImage1:hover, #lastestReviewsImage2:hover, #lastestReviewsImage3:hover{
 	opacity: 0.5;
@@ -298,3 +316,156 @@
 	margin-left: 20%;
 } 
 }
+
+/*Contact form*/
+.contactFormAll {
+	text-align: center;
+	color: #111111;
+	background-color: #f2f2f2;
+	display: table;
+	clear: both;
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contactFormDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: #111111;
+	background-color: #f2f2f2;
+}
+
+.contactTitle {
+	font-size: 28px;
+	font-family: inherit;
+	font-weight: 700;
+	margin: 60px auto 0;
+	line-height: inherit;
+	letter-spacing: inherit;
+	text-transform: inherit;
+	display: table;
+	align-self: flex-start;
+}
+
+.contactForm {
+	margin-bottom: 20px;
+	padding-left: 20px;
+	width: calc(100% +  20px);
+	align-items: flex-end;
+}
+
+.contactInfo {
+	margin-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 25px;
+	text-align: start;
+}
+
+.inputLabel {
+	display: none !important;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5px;
+}
+
+.guessInput {
+	border-width: 2px;
+	border-color: #000000;
+	stroke: #000000;
+	border-left-width: 0;
+	border-left-style: none;
+	border-right-width: 0;
+	border-right-style: none;
+	border-top-width: 0;
+	border-top-style: none;
+	display: block;
+	width: 90%;
+	padding: 10px 12px;
+	background-image: none;
+	background-clip: padding-box;
+	border-radius: 3px;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	background-color: transparent;
+	color: inherit;
+	height: auto;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+
+.buttonDiv {
+	text-align: center;
+	flex-grow: 0;
+	margin-right: 0;
+}
+
+.submitButton {
+	border-width: 2px;
+	border-color: #000000;
+	stroke: #000000;
+	display: inline-block;
+	cursor: pointer;
+	color: inherit !important;
+	background-color: transparent !important;
+	font-family: Arial, sans-serif !important;
+	text-decoration: none;
+	outline-width: 0;
+	margin: 0;
+	-webkit-text-decoration-skip: objects;
+	font-style: initial;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+	text-align: center;
+	padding: 10px 30px;
+	border-radius: 0 !important;
+	align-self: flex-start;
+	border-style: solid;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.successMessage {
+	z-index: 1;
+	background: #62C584;
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	padding: 20px 0px 20px 0px;
+	border: none;
+}
+
+.errorMessage {
+	z-index: 1;
+	background: #F95D51;
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	padding: 20px 0px 20px 0px;
+	border: none;
+}
+@media (max-width: 767px) {
+	.contactFormAll .contactFormDiv {
+		width: 540px;
+		}
+}
+
+@media (max-width: 575px) {
+	.contactFormAll .contactFormDiv {
+		width: 340px;
+		}

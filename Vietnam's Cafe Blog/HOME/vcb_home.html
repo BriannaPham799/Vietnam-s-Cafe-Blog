@@ -10,16 +10,21 @@
 	-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="​Vietnam's Café Blog, ​HA NOI, SAI GON, ​TOP 10, ​DRINK SUGGESTIONS">
+	
 	<title>Vietnam's Café Blog</title>
+	
 	<link rel="stylesheet" type="text/css" href="../vcb_styles.css">
 	<link rel="stylesheet" type="text/css" href="vcb_home_styles.css">
 	<link rel="stylesheet" type="text/css" href="../vcb_reset.css">
+	
+	<link id="u-theme-google-font" rel="stylesheet" 
+		href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
 </head>
 <body>
 	<header>
 	<!-- Navigation Bar for Header -->
 		<nav>
-			<img class="header_logo" src="../vcb_logo2.png" alt="VCB's logo">
 			<ul class="headerNavigationBar">
 				<li><a href="vcb_home.html">HOME</a></li>
 				<li><a href="../HANOi/vcb_hanoi.html">HANOI</a></li>
@@ -32,6 +37,7 @@
 				</div>
 				</li>
 			</ul>
+			<img class="header_logo" src="../vcb_logo.png" alt="VCB's logo" >
 		</nav>
 		
 		<!-- Header with Image and Slogan -->
@@ -41,24 +47,27 @@
 		</div>
 	</header>
 	
+	<section>
 	<!-- Hanoi homepage General -->
-	<div class="home_Hanoi">
-		<a href="../HANOi/vcb_hanoi.html"><img id="hanoiImage" src="home_hanoi.jpg" alt="Hanoi"></a>
-		<div id="hanoiIntro">
+		<div class="home_Hanoi">
+			<a href="../HANOi/vcb_hanoi.html"><img id="hanoiImage" src="home_hanoi.jpg" alt="Hanoi"></a>
+			<div id="hanoiIntro">
 			<h3><a href="../HANOi/vcb_hanoi.html">HA NOI</a></h3>
 			<p>The city maintains a sprawling and engrained everyman's cafe culture. Hanoians makes an art of roasting and brweing, thick, brian-shudderingly strong Robustas.</p>
+			</div>
 		</div>
-	</div>
-	
+		
 	<!-- Saigon homepage General -->
-	<div class="home_Saigon">
-		<a href="../SAIGON/vcb_saigon.html"><img id="saigonImage" src="home_saigon.jpg" alt="Saigon"></a>
-		<div id="saigonIntro">
+		<div class="home_Saigon">
+			<a href="../SAIGON/vcb_saigon.html"><img id="saigonImage" src="home_saigon.jpg" alt="Saigon"></a>
+			<div id="saigonIntro">
 			<h3><a href="../SAIGON/vcb_saigon.html">SAI GON</a></h3>
 			<p>The Saigon Cafes has gone through the history and changed in the way people operated as well as enjoyed them.</p>
+			</div>
 		</div>
-	</div>
-
+	</section>
+	
+	<section>
 	<!-- Top10 homepage General -->
 	<div class="home_Top10">
 		<a href="../TOP10/vcb_top10.html"><img id="top10Image" src="home_top10.jpg" alt="Top10"></a>
@@ -74,7 +83,9 @@
 			<h3 id="drinkSuggestionsTitle"><a href="../DRINK_SUGGESTION/vcb_drink_suggestions.html">DRINK SUGGESTIONS</a></h3>
 			<p id="drinkSuggestionsIntro">A list of drinks and detailed explaination for you to choose</p>
 	</div>
+	</section>
 
+	<section>
 	<!-- Lastest Reviews -->
 	<div class="home_LastestReviews">
 		<!-- Lastest Reviews Heading -->
@@ -96,7 +107,39 @@
 		<p><a href="#">Review Title 2</a></p>
 		<p><a href="#">Review Title 3</a></p>
 		</div>
-	   </div>
+	</div>
+	</section>
+	
+	<section style="color: #111111; background-color: #f2f2f2;">
+	<!-- Contact form -->
+	<div class="contactFormAll">
+        <h1 class="contactTitle">Contact Us</h1>
+		<div class = "contactFormDiv">
+          <form action="#" method="POST" class="contactForm" style="padding: 10px" source="custom" name="form">
+            <div class="contactInfo">
+              <label for="name-input" class="inputLabel">Name</label>
+              <input type="text" placeholder="Enter your Name" id="name-input" name="name" class="guessInput" required="">
+            </div>
+            <div class="contactInfo">
+              <label for="email-input" class="inputLabel">Email</label>
+              <input type="email" placeholder="Enter a valid email address" id="email-input" name="email" class="guessInput" required="">
+            </div>
+            <div class="contactInfo">
+              <label for="message-input" class="inputLabel">Message</label>
+              <textarea placeholder="Enter your message" rows="4" cols="50" id="message-input" name="message" class="guessInput" required=""></textarea>
+            </div>
+			
+            <div class="buttonDiv">
+				<input type="submit" value="submit" class="submitButton">
+            </div>
+			
+            <div class="successMessage"> Thank you! Your message has been sent. </div>
+            <div class="errorMessage"> Unable to send your message. Please fix errors then try again. </div>
+            <input type="hidden" value="" name="recaptchaResponse">
+          </form>
+		 </div>
+      </div>
+	</section>
 	
 	<!-- Footer -->
 	   <footer>
