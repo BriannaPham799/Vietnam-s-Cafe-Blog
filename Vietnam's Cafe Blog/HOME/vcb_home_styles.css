@@ -239,7 +239,7 @@
 
 .lastestReviewsIntro{
 	text-align: left;
-	padding: 6px;
+	padding: 8px;
 }
 
 .lastestReviewsIntro h3{
@@ -276,11 +276,11 @@
 }
 
 .lastestReviewsTitle p:first-child{
-	margin-left: 6px;
+	margin-left:2.5%;
 }
 
 .lastestReviewsTitle p:nth-child(2), .lastestReviewsTitle p:last-child {
-	margin-left: 18%;
+	margin-left: 18.5%;
 } 
 #lastestReviewsImage1:hover, #lastestReviewsImage2:hover, #lastestReviewsImage3:hover{
 	opacity: 0.5;
