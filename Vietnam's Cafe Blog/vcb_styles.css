@@ -27,15 +27,15 @@ header nav{
 .headerNavigationBar{
 	list-style-type: none;
 	float:right;
-	margin-top: 3.5%;
-	margin-right: 9.5%;
+	margin-top: 3%;
+	margin-right: 7%;
 	display: block;
 
 }
 
 .headerNavigationBar>li{
 	display: inline-block;
-	font-size: 1.25rem;
+	font-size: 1.05rem;
 	padding-left: 5px;
 	padding-right: 100px;
 }

@@ -148,7 +148,7 @@
 	width: 43%;
 	padding-left: 2%;
 	padding-top: 8%;
-	font-size: 28px;
+	font-size: 22px;
 	height: 390px;
 	color: white;
 }
@@ -169,6 +169,7 @@
 @media only screen  and (min-width: 1600px){
 #top10Intro{
 	height: 486px;
+	font-size: 28px;
 }
 
 }
@@ -192,11 +193,11 @@
 }
 #drinkSuggestionsIntro{
 	margin-bottom: 5%;
-	font-size: 28px;
+	font-size: 25px;
 }
 
 #drinkSuggestionsTitle, #drinkSuggestionsIntro{
-	font-size: 28px;
+	font-size: 25px;
 	margin-top: 0.5%;
 	margin-left: 5%;
 	text-align: center;
@@ -228,8 +229,8 @@
 
 /**Lastest Reviews**/
 .home_LastestReviews{
-	padding: 3% 0 5% 8%;
-	font-size: 28px;
+	padding: 5% 0 5% 8%;
+	font-size: 25px;
 	background-color: rgb(119, 80, 73);
 	width: 100%;
 	height: 50%;
@@ -239,6 +240,7 @@
 .lastestReviewsIntro{
 	text-align: left;
 	margin-left: 0.8%;
+	padding-bottom: 1%;
 }
 
 .lastestReviewsIntro h3{
@@ -258,6 +260,29 @@
  	font-size: 28px;
 	font-family: Roboto, sans-serif !important;
  }
+ 
+ .typewriter {
+  order-right: solid 3px white;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: Arial, sans-serif;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* The typing effect */
+@keyframes animated-text {
+  from	{width: 0;}
+  to	{width: 400px;}
+  }
+
+/* The typewriter cursor effect */
+@keyframes  animated-cursort {
+   from	{border-right-color: white;}
+   to	{border-right-color: transparent;}
+   }
 .lastestReviewsImage img{
 	width: 30%;
 	height: 450px;
@@ -296,7 +321,7 @@
 
 .home_LastestReviews{
 	padding: 3% 0 5% 10%;
-	font-size: 25px;
+	font-size: 28px;
 	background-color: rgb(119, 80, 73);
 	width: 100%;
 	height: 50%;
