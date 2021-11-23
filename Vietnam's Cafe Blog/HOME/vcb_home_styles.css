@@ -239,7 +239,7 @@
 
 .lastestReviewsIntro{
 	text-align: left;
-	padding: 8px;
+	margin-left: 0.8%;
 }
 
 .lastestReviewsIntro h3{
@@ -330,6 +330,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding-bottom: 2%;
 }
 
 .contactFormDiv {
@@ -465,13 +466,3 @@
 	background: #F95D51;
 
 }
-@media (max-width: 767px) {
-	.contactFormAll .contactFormDiv {
-		width: 540px;
-		}
-}
-
-@media (max-width: 575px) {
-	.contactFormAll .contactFormDiv {
-		width: 340px;
-		}
