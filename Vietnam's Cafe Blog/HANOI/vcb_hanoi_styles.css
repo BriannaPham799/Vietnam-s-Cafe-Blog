@@ -13,19 +13,20 @@
 	font-weight: 600;
 	margin: 0;
 	text-align: center;
+	font-family: Roboto, sans-serif !important;
 }
 #headerSlogan{
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .header{
-	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(temporary2.png);
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(hanoiheader.jpeg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size:  cover;
 	background-size: cover;
 	width: 100%;
-	height: 50vh;
+	height: 45vh;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display:  -ms-flex;

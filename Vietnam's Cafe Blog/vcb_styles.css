@@ -104,13 +104,12 @@ header nav{
 	padding-right: 150px;
 }
 
-.header_logo {
+.header_logo{
+	padding: 15px;
+	width: 10%;
 	float: left;
 	background-color: black;
 	cursor: pointer;
-	padding: 5px;
-	width: 15%;
-	height: 180px;
 }
 
 }

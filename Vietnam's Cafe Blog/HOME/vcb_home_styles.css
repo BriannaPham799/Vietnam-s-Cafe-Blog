@@ -239,7 +239,7 @@
 
 .lastestReviewsIntro{
 	text-align: left;
-	padding: 5px;
+	padding: 6px;
 }
 
 .lastestReviewsIntro h3{
@@ -276,7 +276,7 @@
 }
 
 .lastestReviewsTitle p:first-child{
-	margin-left: 0.5%;
+	margin-left: 6px;
 }
 
 .lastestReviewsTitle p:nth-child(2), .lastestReviewsTitle p:last-child {
