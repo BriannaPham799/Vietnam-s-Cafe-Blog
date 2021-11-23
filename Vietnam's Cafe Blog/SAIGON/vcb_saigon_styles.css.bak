@@ -16,7 +16,7 @@
 	font-family: Roboto, sans-serif !important;
 }
 #headerSlogan{
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .header{
@@ -45,7 +45,7 @@
 	font-size: 70px;
 }
 #headerSlogan{
-	font-size: 30px;
+	font-size: 25px;
 }
 }
 /*Cafe Name 1 Styles*/

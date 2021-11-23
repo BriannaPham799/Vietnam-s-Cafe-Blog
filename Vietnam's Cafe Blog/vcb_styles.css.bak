@@ -103,7 +103,7 @@ header nav{
 	list-style-type: none;
 	float:right;
 	margin-top: 3.5%;
-	margin-right: 15%;
+	margin-right: 14%;
 }
 .headerNavigationBar>li{
 	display: inline-block;

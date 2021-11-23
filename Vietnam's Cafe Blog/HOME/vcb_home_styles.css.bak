@@ -9,7 +9,7 @@
 
 /**Header Style**/
 .header h1{
-	font-size: 70px;
+	font-size: 60px;
 	font-weight: 600;
 	margin: 0;
 	text-align: center;
