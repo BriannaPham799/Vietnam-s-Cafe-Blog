@@ -228,8 +228,8 @@
 
 /**Lastest Reviews**/
 .home_LastestReviews{
-	padding: 3% 0 3% 8%;
-	margin-bottom: 20%;
+	padding: 3% 0 8% 8%;
+	margin-bottom: 0;
 	font-size: 25px;
 	background-color: rgb(119, 80, 73);
 	width: 100%;
@@ -394,70 +394,76 @@
 	background-color: transparent;
 	color: inherit;
 	height: auto;
-	border-radius: 0;
-	text-transform: uppercase;
+	font-size: 20px;
+	font-family: Arial, sans-serif !important;
 }
 
 .buttonDiv {
 	text-align: center;
+	text-align: start;
+	display: flex;
+	justify-content: center;
 	flex-grow: 0;
 	margin-right: 0;
 }
 
 .submitButton {
-	border-width: 2px;
-	border-color: #000000;
-	stroke: #000000;
-	display: inline-block;
-	cursor: pointer;
-	color: inherit !important;
-	background-color: transparent !important;
-	font-family: Arial, sans-serif !important;
-	text-decoration: none;
-	outline-width: 0;
-	margin: 0;
-	-webkit-text-decoration-skip: objects;
-	font-style: initial;
-	white-space: nowrap;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	vertical-align: middle;
+  border-width: 2px;
+  color: #000000 !important;
+  background-color: transparent !important;
+  display: table;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  outline-width: 0;
+  -webkit-text-decoration-skip: objects;
+  font-style: initial;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px 30px;
+  align-self: flex-start;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  position: relative;
+  font-family: Arial, sans-serif !important;
+  background-image: none;
+  border-style: solid;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.submitHidden {
+	display: none !important;
+}
+
+.successMessage, .errorMessage {
+	z-index: 1;
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
 	text-align: center;
-	padding: 10px 30px;
-	border-radius: 0 !important;
-	align-self: flex-start;
-	border-style: solid;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+	color: #fff;
+	padding: 20px 0px 20px 0px;
+	border: none;
 }
 
 .successMessage {
-	z-index: 1;
 	background: #62C584;
-	display: none;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	padding: 20px 0px 20px 0px;
-	border: none;
-}
-
+	}
+	
 .errorMessage {
-	z-index: 1;
 	background: #F95D51;
-	display: none;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	padding: 20px 0px 20px 0px;
-	border: none;
+
 }
 @media (max-width: 767px) {
 	.contactFormAll .contactFormDiv {
