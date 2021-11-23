@@ -51,7 +51,7 @@
 
 /*Cafe Name 1 Styles*/
 .cafe1{
-	margin: 5% 0 10% 5%;
+	margin: 5% 0 5% 5%;
 	width: 92%;
 	height: 500px;
 	padding: 24px;
@@ -61,6 +61,7 @@
 	align-items: flex-end;
 	transition: .6s ease-out;
 	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+	text-transform: uppercase;
 }
 
 #cafe1Image, .cafe1Infor{
@@ -70,8 +71,10 @@
 }
 
 #cafe1Image{
-	height:400px;
+	height:500px;
+	width: 500px;
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .cafe1Infor{
@@ -142,6 +145,7 @@
 	align-items: flex-end;
 	transition: .6s ease-out;
 	box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+	text-transform: uppercase;
 }
 
  .cafe3, .cafe4{
@@ -156,6 +160,7 @@
 	align-items: flex-end;
 	transition: .6s ease-out;
 	box-shadow: 0 20px 20px rgba(0,0,0,0.5);
+	text-transform: uppercase;
  }
 
 .cafe2:hover, .cafe3:hover, .cafe4:hover {
