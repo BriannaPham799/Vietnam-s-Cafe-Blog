@@ -1,22 +1,24 @@
 @charset "utf-8";
-	/*
+/*
 		Vietnam's Café Blog
 		
 		Author: Nguyen Vu Hoang Anh & Uyen.N.P Pham
 		
-		Filename:vcb_home_styles.css
-	*/
+		Filename:vcb_home_mobile_styles.css
+*/
 
 /**Header Style**/
+.header{
+	padding-top: 5vh;
+}
 .header h1{
-	font-size: 70px;
+	font-size: 8vw;
 	font-weight: 600;
 	margin: 0;
 	text-align: center;
-	font-family: Roboto, sans-serif !important;
 }
 #headerSlogan{
-	font-size: 30px;
+	font-size: 3vw;
 }
 
 .header{
@@ -26,7 +28,7 @@
 	-webkit-background-size:  cover;
 	background-size: cover;
 	width: 100%;
-	height: 45vh;
+	height: 50vh;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display:  -ms-flex;
@@ -40,33 +42,35 @@
 
 }
 
-/**Body Style**/
 /**Hanoi**/
-#hanoiImage, #hanoiIntro{
-	float: left;
+.home_Hanoi{
+	margin: 5% 0 0 5%;
+	height: auto;
+	width: 90%;
+	max-width: 100%;
+	box-shadow: 0 10px 20px #000;
 }
+
 #hanoiImage{
-	width: 44%;
-	height: 400px;
-	margin: 5% 0 0 6%;
+	margin: 5% 0 0 10%;
+	width: 80%;
+	height: auto;
 }
 
 #hanoiIntro{
-	margin-left: 4%;
-	padding-top: 10%;
-	width: 40%;
-	height: 350px;
-	vertical-align: baseline;
-	font-size: 22px;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	width: 80%;
+	text-align: left;
+	font-size: 5vw;
 	font-weight: normal;
 
 }
 
 #hanoiIntro h3 a{
 	text-decoration: none;
-	color: #6b4748 !important;
-	font-family: Roboto, sans-serif !important;
-	font-size: 30px;
+	color: #5C3317;
+	font-size: 5vw;
 }
 
 .home_Hanoi::after{
@@ -74,45 +78,36 @@
 	clear: both;
 	display: table;
 }
-/*Apply for large laptops and desktop*/
-@media only screen  and (min-width: 1600px){
-#hanoiImage{
-	width: 44%;
-	height: 450px;
-	margin: 5% 0 0 6%;
-}
-#hanoiIntro{
-	font-size: 30px;
-}
-}
+
 /**Saigon**/
-#saigonImage, #saigonIntro{
-	float: right;
-	
-}
-#saigonImage{
-	margin: 1% 6% 5% 0;
-	width:43%;
-	height:450px;
+.home_Saigon{
+	margin: 5% 0 5% 5%;
+	height: auto;
+	width: 90%;
+	max-width: 100%;
+	box-shadow: 0 10px 20px #000;
 }
 
+#saigonImage{
+	margin: 5% 0 0 10%;
+	width: 80%;
+	height: auto;
+}
 
 #saigonIntro{
-	padding-top: 10%;
-	padding-right: 3%;
-	width: 42%;
-	height: 350px;
-	vertical-align: baseline;
-	font-size: 22px;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	width: 80%;
+	text-align: left;
+	font-size: 5vw;
 	font-weight: normal;
 
 }
 
 #saigonIntro h3 a{
 	text-decoration: none;
-	color: #6b4748 !important;
-	font-family: Roboto, sans-serif !important;
-	font-size: 30px;
+	color: #5C3317;
+	font-size: 5vw;
 }
 
 .home_Saigon::after{
@@ -120,44 +115,37 @@
 	clear: both;
 	display: table;
 }
-/*Apply for large laptops and desktop*/
-@media only screen  and (min-width: 1600px){
-#saigonImage{
-	margin: 1% 6% 5% 0;
-	width:43%;
-	height:480px;
-}
-#saigonIntro{
-	font-size: 30px;
-}
-}
+
 /**Top10**/
-#top10Image, #top10Intro{
-	float: left;
+
+.home_Top10{
+	margin: 5% 0 5% 5%;
+	height: auto;
+	width: 90%;
+	max-width: 100%;
+	box-shadow: 0 10px 20px #000;
+	background-color: rgb(119, 80, 73);
 }
 
 #top10Image{
-	margin-left: 5%;
-	margin-right: 1%;
-	width: 45%;
-	height: 400;
+	margin: 5% 0 0 10%;
+	width: 80%;
+	height: auto;
 }
 
 #top10Intro{
-	background-color: rgb(119, 80, 73);
-	width: 43%;
-	padding-left: 2%;
-	padding-top: 8%;
-	font-size: 22px;
-	height: 390px;
+	font-size: 5vw;
+	height: auto;
 	color: white;
+	margin-left: 10%;
+	margin-bottom: 5%;
 }
 
 #top10Intro h3 a{
 	text-decoration: none;
 	color: white;
 	font-family: Roboto, sans-serif !important;
-	font-size: 35px;
+	font-size: 5vw;
 }
 
 .home_Top10::after{
@@ -165,31 +153,23 @@
 	clear: both;
 	display: table;
 }
-/*Apply for large laptops and desktop*/
-@media only screen  and (min-width: 1600px){
-#top10Intro{
-	height: 486px;
-	font-size: 28px;
-}
-
-}
 
 /**Drink Suggestions**/
 #drinkSuggestionsImage{
 	margin-top: 5%;
 	margin-left: 5%;
-	width:89%;
-	height:450px;
+	width: 89%;
+	height:auto;
+	box-shadow: 0 10px 10px #000;
 
 }
-
 
 #drinkSuggestionsTitle a{
 	text-decoration: none;
 	text-align: center;
 	color: #5C3317;
 	font-family: Roboto, sans-serif !important;
-	font-size: 35px;
+	font-size: 5vw;
 }
 #drinkSuggestionsIntro{
 	margin-bottom: 5%;
@@ -197,7 +177,7 @@
 }
 
 #drinkSuggestionsTitle, #drinkSuggestionsIntro{
-	font-size: 25px;
+	font-size: 3vw;
 	margin-top: 0.5%;
 	margin-left: 5%;
 	text-align: center;
@@ -209,93 +189,70 @@
 	display: table;
 }
 
-/*Apply for large laptops and desktop*/
-@media only screen  and (min-width: 1600px){
-#drinkSuggestionsImage{
-	margin-top: 5%;
-	margin-left: 5%;
-	width:89%;
-	height:500px;
-
-}
-
-#drinkSuggestionsTitle, #drinkSuggestionsIntro{
-	font-size: 28px;
-	margin-top: 1%;
-	margin-left: 5%;
-}
-
-}
-
 /**Lastest Reviews**/
 .home_LastestReviews{
-	padding: 5% 0 5% 8%;
-	font-size: 25px;
+	padding: 3% 0 3% 10%;
+	margin-bottom: 10%;
+	font-size: 4vw;
 	background-color: rgb(119, 80, 73);
 	width: 100%;
 	height: 50%;
 	color: white;
-	font-family: Roboto, sans-serif !important;
 }
 .lastestReviewsIntro{
-	margin-left: 1%;
+	margin-bottom: 5vh;
 }
-
 .lastestReviewsIntro h3{
-	text-align: left;
 	text-decoration: none;
 	color: white;
-	font-size: 45px;
-	font-weight: 500;
-	font-family: Roboto, sans-serif !important;
+	font-size: 6vw;
 }
-
-.typewriter {
-  order-right: solid 3px white;
-  white-space: nowrap;
-  overflow: hidden;    
-  font-family: Arial, sans-serif;  
-  font-size: 28px;
-  color: rgba(255,255,255,.70);
-  animation: animated-text 4s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
-}
-/* The typing effect */
-@keyframes animated-text {
-  from	{width: 0;}
-  to	{width: 400px;}
-  }
-
-/* The typewriter cursor effect */
-@keyframes  animated-cursort {
-   from	{border-right-color: white;}
-   to	{border-right-color: transparent;}
-   }
-
-.lastestReviews1, .lastestReviews2, .lastestReviews3{
+#lastestReviewsImage1, .lastestReviewsTitle1{
 	float: left;
-	width: 30%;
-	padding: 10px;
 }
-#lastestReviewsImage1{
-	width: 100%;
-	height: 450px;
+.lastestReviews1::after{
+	clear: both;
+	content: "";
+	display: block;
 }
-#lastestReviewsImage2{
-	width: 100%;
-	height: 450px;
+.lastestReviewsTitle1{
+	margin-left: 5%;
+	margin-top: 20%;
 }
-#lastestReviewsImage3{
-	width: 100%;
-	height: 450px;
+#lastestReviewsImage2, .lastestReviewsTitle2{
+	float: left;
+}
+.lastestReviews2::after{
+	clear: both;
+	content: "";
+	display: block;
+}
+.lastestReviewsTitle2{
+	margin-left: 5%;
+	margin-top: 20%;
+}
+#lastestReviewsImage3, .lastestReviewsTitle3{
+	float: left;
+}
+.lastestReviews3::after{
+	clear: both;
+	content: "";
+	display: block;
+}
+.lastestReviewsTitle3{
+	margin-left: 5%;
+	margin-top: 20%;
+}
+#lastestReviewsImage1,#lastestReviewsImage2,#lastestReviewsImage3 {
+	width: 50%;
+	height: auto;
+	margin-bottom: 3vh;
 }
 .lastestReviewsTitle1 a, .lastestReviewsTitle2 a, .lastestReviewsTitle3 a{
 	text-decoration: none;
 	color: white;
+	font-size: 4vw;
 	font-weight: 700;
-}
-#lastestReviewsImage1:hover, #lastestReviewsImage2:hover, #lastestReviewsImage3:hover{
-	opacity: 0.5;
 }
 .home_LastestReviews::after{
 	content: "";
@@ -303,28 +260,11 @@
 	display: table;
 }
 
-/*Apply for large laptops and desktop*/
-@media only screen  and (min-width: 1600px){
-
-.home_LastestReviews{
-	padding: 3% 0 5% 10%;
-	font-size: 28px;
-	background-color: rgb(119, 80, 73);
-	width: 100%;
-	height: 50%;
-	color: white;
-}
-
-.lastestReviewsImage img{
-	width: 30%;
-	height: 550px;
-	float: left;
-	padding: 15px;
-}
-
-}
 
 /*Contact form*/
+section>p{
+	display: none;
+}
 .contactFormAll {
 	text-align: center;
 	color: #111111;
