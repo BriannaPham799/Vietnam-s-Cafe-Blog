@@ -16,158 +16,159 @@ body>h1{
 	color: #fbd2a7;
 	font-size: 55px;
 	font-weight: 700;
-	margin: 5% 0 0 5%;
+	margin: 5% 0 0 12%;
 	text-shadow: 10px 20px 30px black;
 }
 
-
-/*Cards Styles*/
 /*First Row*/
 .vietnam_traditional_coffee, .egg_coffee{
 	float: left;
+	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
-/*VIETNAM's TRADITIONAL COFFEE*/
+/*Vietnam Tradtional Coffee*/
 .vietnam_traditional_coffee{
-	margin-top: 10%;
-	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-left: 12%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .vietnam_traditional_coffee:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.vietnam_traditional_coffee:hover:before{
+	opacity: 0.8;
+}
+
+.vietnam_traditional_coffee:hover .vietnam_traditional_coffee_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.vietnam_traditional_coffee:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_vietnam_traditional_coffee{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.vietnam_traditional_coffee .vietnam_traditional_coffee_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.vietnam_traditional_coffee:hover .imgBox_vietnam_traditional_coffee{
-	transform: rotateY(-180deg) ;
+.vietnam_traditional_coffee_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
 }
-
-.imgBox_vietnam_traditional_coffee img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.vietnam_traditional_coffee .vietnam_traditional_coffee_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.vietnam_traditional_coffee .vietnam_traditional_coffee_details .vietnam_traditional_coffee_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.vietnam_traditional_coffee .vietnam_traditional_coffee_details .vietnam_traditional_coffee_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.vietnam_traditional_coffee .vietnam_traditional_coffee_details .vietnam_traditional_coffee_contents p{
-    color: #e21212;
-    font-size: 1em;
+.vietnam_traditional_coffee_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
 /*Egg Coffee*/
 .egg_coffee{
-	margin-top: 10%;
 	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .egg_coffee:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.egg_coffee:hover:before{
+	opacity: 0.8;
+}
+
+.egg_coffee:hover .egg_coffee_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.egg_coffee:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_egg_coffee{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.egg_coffee .egg_coffee_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.egg_coffee:hover .imgBox_egg_coffee{
-	transform: rotateY(-180deg) ;
+.egg_coffee_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
 }
-
-.imgBox_egg_coffee img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.egg_coffee .egg_coffee_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.egg_coffee .egg_coffee_details .egg_coffee_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.egg_coffee .egg_coffee_details .egg_coffee_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.egg_coffee .egg_coffee_details .egg_coffee_contents p{
-    color: #e21212;
-    font-size: 1em;
+.egg_coffee_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
 .vietnam_traditional_coffee::after, .egg_coffee::after{
@@ -179,149 +180,152 @@ body>h1{
 /*Second Row*/
 .mocha, .latte{
 	float: left;
+	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
 /*Mocha*/
 .mocha{
-	margin-top: 10%;
-	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-left: 12%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .mocha:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.mocha:hover:before{
+	opacity: 0.8;
+}
+
+.mocha:hover .mocha_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.mocha:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_mocha{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.mocha .mocha_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.mocha:hover .imgBox_mocha{
-	transform: rotateY(-180deg) ;
+.mocha_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
 }
-
-.imgBox_mocha img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.mocha .mocha_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.mocha .mocha_details .mocha_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.mocha .mocha_details .mocha_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.mocha .mocha_details .mocha_contents p{
-    color: #e21212;
-    font-size: 1em;
+.mocha_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
 /*Latte*/
 .latte{
-	margin-top: 10%;
 	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .latte:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.latte:hover:before{
+	opacity: 0.8;
+}
+
+.latte:hover .latte_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.latte:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_latte{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.latte .latte_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.latte:hover .imgBox_latte{
-	transform: rotateY(-180deg) ;
+.latte_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
 }
-
-.imgBox_latte img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.latte .latte_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.latte .latte_details .latte_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.latte .latte_details .latte_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.latte .latte_details .latte_contents p{
-    color: #e21212;
-    font-size: 1em;
+.latte_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
 .mocha::after, .latte::after{
@@ -333,149 +337,152 @@ body>h1{
 /*Third Row*/
 .espresso, .cappuccino{
 	float: left;
+	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
-/*Espresso*/
+/*espresso*/
 .espresso{
-	margin-top: 10%;
-	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-left: 12%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .espresso:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.espresso:hover:before{
+	opacity: 0.8;
+}
+
+.espresso:hover .espresso_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.espresso:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_espresso{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.espresso .espresso_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.espresso:hover .imgBox_espresso{
-	transform: rotateY(-180deg) ;
+.espresso_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
+}
+.espresso_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
-.imgBox_espresso img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.espresso .espresso_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.espresso .espresso_details .espresso_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.espresso .espresso_details .espresso_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.espresso .espresso_details .espresso_contents p{
-    color: #e21212;
-    font-size: 1em;
-}
-
-/*Cappuccino*/
+/*cappuccino*/
 .cappuccino{
-	margin-top: 10%;
-	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-left: 12%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .cappuccino:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.cappuccino:hover:before{
+	opacity: 0.8;
+}
+
+.cappuccino:hover .cappuccino_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.cappuccino:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_cappuccino{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.cappuccino .cappuccino_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.cappuccino:hover .imgBox_cappuccino{
-	transform: rotateY(-180deg) ;
+.cappuccino h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
 }
-
-.imgBox_cappuccino img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.cappuccino .cappuccino_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.cappuccino .cappuccino_details .cappuccino_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.cappuccino .cappuccino_details .cappuccino_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.cappuccino .cappuccino_details .cappuccino_contents p{
-    color: #e21212;
-    font-size: 1em;
+.cappuccino p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
 .espresso::after, .cappuccino::after{

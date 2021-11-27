@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="../vcb_styles.css">
 	<link rel="stylesheet" type="text/css" href="vcb_drink_suggestions_styles.css">
 	<link rel="stylesheet" type="text/css" href="../vcb_reset.css">
-	
+	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 	<link id="u-theme-google-font" rel="stylesheet" 
 		href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
 </head>
@@ -23,16 +23,19 @@
 	<header>
 	<!-- Navigation Bar for Header -->
 		<nav>
-			<img class="header_logo" src="../vcb_logo.png" alt="VCB's logo">
+			<img class="header_logo" src="../vcb_logo.png" alt="VCB's logo" >
+			<input type="checkbox" class="menu_btn" id="menu_btn"/>
+			<label class="menu_icon" for="menu_btn"><span class="nav-icon"></span></label>
 			<ul class="headerNavigationBar">
 				<li><a href="../HOME/vcb_home.html">HOME</a></li>
 				<li><a href="../HANOi/vcb_hanoi.html">HANOI</a></li>
 				<li><a href="../SAIGON/vcb_saigon.html">SAIGON</a></li>
 				<li><a href="../TOP10/vcb_top10.html">TOP 10</a></li>
-				<li id="drop-down"><a href="vcb_drink_suggestions.html">DRINK SUGGESTIONS</a>
+				<li id="drop-down"><a href="vcb_drink_suggestions.html">DRINK SUGGESTIONS
+					<i class="icon ion-md-arrow-dropdown"></i></a>
 					<div class="submenu">
-					<a href="COFFEE_BASED/vcb_coffee_based.html">COFFEE-BASED DRINKS</a>
-					<a href="NON-COFFEE/vcb_non_coffee.html">NON-COFFEE DRINKS</a>
+					<a href="vcb_coffee_based.html">COFFEE-BASED DRINKS</a>
+					<a href="vcb_non_coffee.html">NON-COFFEE DRINKS</a>
 				</div>
 				</li>
 			</ul>
