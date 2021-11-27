@@ -15,7 +15,7 @@ body>h1{
 	color: #fbd2a7;
 	font-size: 55px;
 	font-weight: 700;
-	margin: 5% 0 0 5%;
+	margin: 5% 0 0 12%;
 	text-shadow: 10px 20px 30px black;
 }
 
@@ -24,149 +24,152 @@ body>h1{
 /*First Row*/
 .white_chocolate, .chai_tea_latte{
 	float: left;
+	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
 /*White chocolate*/
 .white_chocolate{
-	margin-top: 10%;
-	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-left: 12%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .white_chocolate:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.white_chocolate:hover:before{
+	opacity: 0.8;
+}
+
+.white_chocolate:hover .white_chocolate_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.white_chocolate:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_white_chocolate{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.white_chocolate .white_chocolate_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.white_chocolate:hover .imgBox_white_chocolate{
-	transform: rotateY(-180deg) ;
+.white_chocolate_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
 }
-
-.imgBox_white_chocolate img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.white_chocolate .white_chocolate_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.white_chocolate .white_chocolate_details .white_chocolate_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.white_chocolate .white_chocolate_details .white_chocolate_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.white_chocolate .white_chocolate_details .white_chocolate_contents p{
-    color: #e21212;
-    font-size: 1em;
+.white_chocolate_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
 /*Chai tea latte*/
 .chai_tea_latte{
-	margin-top: 10%;
 	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .chai_tea_latte:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.chai_tea_latte:hover:before{
+	opacity: 0.8;
+}
+
+.chai_tea_latte:hover .chai_tea_latte_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.chai_tea_latte:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_chai_tea_latte{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.chai_tea_latte .chai_tea_latte_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.chai_tea_latte:hover .imgBox_chai_tea_latte{
-	transform: rotateY(-180deg) ;
+.chai_tea_latte_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
 }
-
-.imgBox_chai_tea_latte img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.chai_tea_latte .chai_tea_latte_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents p{
-    color: #e21212;
-    font-size: 1em;
+.chai_tea_latte_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
 .white_chocolate::after, .chai_tea_latte::after{
@@ -178,152 +181,155 @@ body>h1{
 /*Second Row*/
 .matcha_latte, .avocado_smoothie{
 	float: left;
+	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
-/*matcha_latte*/
+/*Matcha Latte*/
 .matcha_latte{
-	margin-top: 10%;
-	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-left: 12%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .matcha_latte:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.matcha_latte:hover:before{
+	opacity: 0.8;
+}
+
+.matcha_latte:hover .matcha_latte_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.matcha_latte:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_matcha_latte{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.matcha_latte .matcha_latte_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.matcha_latte:hover .imgBox_matcha_latte{
-	transform: rotateY(-180deg) ;
+.matcha_latte_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
+}
+.matcha_latte_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
-.imgBox_matcha_latte img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.matcha_latte .matcha_latte_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.matcha_latte .matcha_latte_details .matcha_latte_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.matcha_latte .matcha_latte_details .matcha_latte_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.matcha_latte .matcha_latte_details .matcha_latte_contents p{
-    color: #e21212;
-    font-size: 1em;
-}
-
-/*avocado_smoothie*/
+/*Avocado Smoothie*/
 .avocado_smoothie{
-	margin-top: 10%;
 	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .avocado_smoothie:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.avocado_smoothie:hover:before{
+	opacity: 0.8;
+}
+
+.avocado_smoothie:hover .avocado_smoothie_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.avocado_smoothie:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_avocado_smoothie{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.avocado_smoothie .avocado_smoothie_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.avocado_smoothie:hover .imgBox_avocado_smoothie{
-	transform: rotateY(-180deg) ;
+.avocado_smoothie_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
+}
+.avocado_smoothie_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
-.imgBox_avocado_smoothie img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.avocado_smoothie .avocado_smoothie_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents p{
-    color: #e21212;
-    font-size: 1em;
-}
-
-.matcha_latte::after, .avocado_latte::after{
+.matcha_latte::after, .avocado_smoothie::after{
 	clear: both;
 	content: "";
 	display: table;
@@ -332,149 +338,152 @@ body>h1{
 /*Third Row*/
 .orange_juice, .peach_green_tea{
 	float: left;
+	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
 /*orange_juice*/
 .orange_juice{
-	margin-top: 10%;
-	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-left: 12%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .orange_juice:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.orange_juice:hover:before{
+	opacity: 0.8;
+}
+
+.orange_juice:hover .orange_juice_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.orange_juice:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_orange_juice{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.orange_juice .orange_juice_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.orange_juice:hover .imgBox_orange_juice{
-	transform: rotateY(-180deg) ;
+.orange_juice_contents h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
 }
-
-.imgBox_orange_juice img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.orange_juice .orange_juice_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.orange_juice .orange_juice_details .orange_juice_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.orange_juice .orange_juice_details .orange_juice_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.orange_juice .orange_juice_details .orange_juice_contents p{
-    color: #e21212;
-    font-size: 1em;
+.orange_juice_contents p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
 /*peach_green_tea*/
 .peach_green_tea{
-	margin-top: 10%;
-	margin-left: 15%;
-	position: relative;
-	width: 25%;
+	margin-left: 12%;
+	margin-bottom: 10%;
+	width: 30%;
 	height: 450px;
+	padding: 24px;
 	background: #fff;
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-	transition: 1s;
+	position: relative;
+	display: flex;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .peach_green_tea:hover{
-	transform: translateX(50%);
+	transform: translateY(15px);
 }
 
+
+.peach_green_tea:hover:before{
+	opacity: 0.8;
+}
+
+.peach_green_tea:hover .peach_green_tea_contents{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.peach_green_tea:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, #000,#000);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
 
 .imgBox_peach_green_tea{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	object-fit:cover;
+}
+
+.peach_green_tea .peach_green_tea_contents{
 	position: relative;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform-origin: left;
-	transform-style: preserve-3d;
-	background: #000;
-	transition: 1s;
+	z-index: 3;
+	color: #fff;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: 0.5s;
 }
 
-.peach_green_tea:hover .imgBox_peach_green_tea{
-	transform: rotateY(-180deg) ;
+.peach_green_tea h2{
+	margin: 0; 
+	letter-spacing: 2px;
+	color: white;
+	font-size: 20px;
 }
-
-.imgBox_peach_green_tea img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform-style: preserve-3d;
-}
-
-.peach_green_tea .peach_green_tea_details{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 20px;
-	display: flex;
-	
-}
-
-.peach_green_tea .peach_green_tea_details .peach_green_tea_contents{
-	display: flex;
-	margin-top: 5%;
-	flex-direction: column;
-}
-
-.peach_green_tea .peach_green_tea_details .peach_green_tea_contents h2{
-	font-weight: 700;
-	line-height: 2em;
-}
-
-.peach_green_tea .peach_green_tea_details .peach_green_tea_contents p{
-    color: #e21212;
-    font-size: 1em;
+.peach_green_tea p{
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 8px;
 }
 
 .orange_juice::after, .peach_green_tea::after{
