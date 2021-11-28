@@ -49,12 +49,12 @@
 }
 }
 
+
 /*Cafe Name 1 Styles*/
 .cafe1{
 	margin: 5% 0 5% 5%;
 	width: 92%;
 	height: 500px;
-	padding: 24px;
 	background: #fff;
 	position: relative;
 	display: flex;
@@ -67,20 +67,19 @@
 #cafe1Image, .cafe1Infor{
 	float: left;
 	width: 100%;
-	margin: 10%;
 }
 
 #cafe1Image{
-	height:400px;
-	width: 400px;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	height:450px;
+	width: 450px;
+	margin: 5%;
 }
 
 .cafe1Infor{
-	margin-left: 10%;
+	margin: 10%;
 	width: 50%;
 	font-size: 20px;
+
 }
 
 .cafe1Infor h3 {

@@ -1,10 +1,11 @@
 @charset "utf-8";
+
 /*
 		Vietnam's Café Blog
 		
 		Author: Nguyen Vu Hoang Anh & Uyen.N.P Pham
 		
-		Filename:vcb_non_coffee_styles.css
+		Filename:vcb_coffee_based_styles.css
 	*/
 
 html{
@@ -13,27 +14,24 @@ html{
 /*Heading Styles*/
 body>h1{
 	color: #fbd2a7;
-	font-size: 55px;
+	font-size: 8vw;
 	font-weight: 700;
 	margin: 5% 0 0 12%;
 	text-shadow: 10px 20px 30px black;
 }
 
-
-/*Cards Styles*/
 /*First Row*/
-.white_chocolate, .chai_tea_latte{
-	float: left;
+.vietnam_traditional_coffee, .egg_coffee{
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
-/*White chocolate*/
-.white_chocolate{
+/*Vietnam Tradtional Coffee*/
+.vietnam_traditional_coffee{
 	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -42,21 +40,21 @@ body>h1{
 	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
-.white_chocolate:hover{
+.vietnam_traditional_coffee:hover{
 	transform: translateY(15px);
 }
 
 
-.white_chocolate:hover:before{
+.vietnam_traditional_coffee:hover:before{
 	opacity: 0.8;
 }
 
-.white_chocolate:hover .white_chocolate_contents{
+.vietnam_traditional_coffee:hover .vietnam_traditional_coffee_contents{
 	opacity: 1;
 	transform: translateY(0);
 }
 
-.white_chocolate:before{
+.vietnam_traditional_coffee:before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -70,7 +68,7 @@ body>h1{
 	opacity: 0;
 }
 
-.imgBox_white_chocolate{
+.imgBox_vietnam_traditional_coffee{
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -79,7 +77,7 @@ body>h1{
 	object-fit:cover;
 }
 
-.white_chocolate .white_chocolate_contents{
+.vietnam_traditional_coffee .vietnam_traditional_coffee_contents{
 	position: relative;
 	z-index: 3;
 	color: #fff;
@@ -88,24 +86,24 @@ body>h1{
 	transition: 0.5s;
 }
 
-.white_chocolate_contents h2{
+.vietnam_traditional_coffee_contents h2{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
-.white_chocolate_contents p{
+.vietnam_traditional_coffee_contents p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
-/*Chai tea latte*/
-.chai_tea_latte{
-	margin-left: 15%;
+/*Egg Coffee*/
+.egg_coffee{
+	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -114,21 +112,21 @@ body>h1{
 	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
-.chai_tea_latte:hover{
+.egg_coffee:hover{
 	transform: translateY(15px);
 }
 
 
-.chai_tea_latte:hover:before{
+.egg_coffee:hover:before{
 	opacity: 0.8;
 }
 
-.chai_tea_latte:hover .chai_tea_latte_contents{
+.egg_coffee:hover .egg_coffee_contents{
 	opacity: 1;
 	transform: translateY(0);
 }
 
-.chai_tea_latte:before{
+.egg_coffee:before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -142,7 +140,7 @@ body>h1{
 	opacity: 0;
 }
 
-.imgBox_chai_tea_latte{
+.imgBox_egg_coffee{
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -151,7 +149,7 @@ body>h1{
 	object-fit:cover;
 }
 
-.chai_tea_latte .chai_tea_latte_contents{
+.egg_coffee .egg_coffee_contents{
 	position: relative;
 	z-index: 3;
 	color: #fff;
@@ -160,37 +158,36 @@ body>h1{
 	transition: 0.5s;
 }
 
-.chai_tea_latte_contents h2{
+.egg_coffee_contents h2{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
-.chai_tea_latte_contents p{
+.egg_coffee_contents p{
 	letter-spacing: 1px;
 	font-size: 20px;
-	margin-top: 8px;
+	margin-top: 3vw;
 }
 
-.white_chocolate::after, .chai_tea_latte::after{
+.vietnam_traditional_coffee::after, .egg_coffee::after{
 	clear: both;
 	content: "";
 	display: table;
 }
 
 /*Second Row*/
-.matcha_latte, .avocado_smoothie{
-	float: left;
+.mocha, .latte{
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
-/*Matcha Latte*/
-.matcha_latte{
+/*Mocha*/
+.mocha{
 	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -199,21 +196,21 @@ body>h1{
 	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
-.matcha_latte:hover{
+.mocha:hover{
 	transform: translateY(15px);
 }
 
 
-.matcha_latte:hover:before{
+.mocha:hover:before{
 	opacity: 0.8;
 }
 
-.matcha_latte:hover .matcha_latte_contents{
+.mocha:hover .mocha_contents{
 	opacity: 1;
 	transform: translateY(0);
 }
 
-.matcha_latte:before{
+.mocha:before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -227,7 +224,7 @@ body>h1{
 	opacity: 0;
 }
 
-.imgBox_matcha_latte{
+.imgBox_mocha{
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -236,7 +233,7 @@ body>h1{
 	object-fit:cover;
 }
 
-.matcha_latte .matcha_latte_contents{
+.mocha .mocha_contents{
 	position: relative;
 	z-index: 3;
 	color: #fff;
@@ -245,24 +242,24 @@ body>h1{
 	transition: 0.5s;
 }
 
-.matcha_latte_contents h2{
+.mocha_contents h2{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
-.matcha_latte_contents p{
+.mocha_contents p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
-/*Avocado Smoothie*/
-.avocado_smoothie{
-	margin-left: 15%;
+/*Latte*/
+.latte{
+	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -271,21 +268,21 @@ body>h1{
 	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
-.avocado_smoothie:hover{
+.latte:hover{
 	transform: translateY(15px);
 }
 
 
-.avocado_smoothie:hover:before{
+.latte:hover:before{
 	opacity: 0.8;
 }
 
-.avocado_smoothie:hover .avocado_smoothie_contents{
+.latte:hover .latte_contents{
 	opacity: 1;
 	transform: translateY(0);
 }
 
-.avocado_smoothie:before{
+.latte:before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -299,7 +296,7 @@ body>h1{
 	opacity: 0;
 }
 
-.imgBox_avocado_smoothie{
+.imgBox_latte{
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -308,7 +305,7 @@ body>h1{
 	object-fit:cover;
 }
 
-.avocado_smoothie .avocado_smoothie_contents{
+.latte .latte_contents{
 	position: relative;
 	z-index: 3;
 	color: #fff;
@@ -317,37 +314,37 @@ body>h1{
 	transition: 0.5s;
 }
 
-.avocado_smoothie_contents h2{
+.latte_contents h2{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
-.avocado_smoothie_contents p{
+.latte_contents p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
-.matcha_latte::after, .avocado_smoothie::after{
+.mocha::after, .latte::after{
 	clear: both;
 	content: "";
 	display: table;
 }
 
 /*Third Row*/
-.orange_juice, .peach_green_tea{
+.espresso, .cappuccino{
 	float: left;
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
 
-/*orange_juice*/
-.orange_juice{
+/*espresso*/
+.espresso{
 	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -356,21 +353,21 @@ body>h1{
 	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
-.orange_juice:hover{
+.espresso:hover{
 	transform: translateY(15px);
 }
 
 
-.orange_juice:hover:before{
+.espresso:hover:before{
 	opacity: 0.8;
 }
 
-.orange_juice:hover .orange_juice_contents{
+.espresso:hover .espresso_contents{
 	opacity: 1;
 	transform: translateY(0);
 }
 
-.orange_juice:before{
+.espresso:before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -384,7 +381,7 @@ body>h1{
 	opacity: 0;
 }
 
-.imgBox_orange_juice{
+.imgBox_espresso{
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -393,7 +390,7 @@ body>h1{
 	object-fit:cover;
 }
 
-.orange_juice .orange_juice_contents{
+.espresso .espresso_contents{
 	position: relative;
 	z-index: 3;
 	color: #fff;
@@ -402,24 +399,24 @@ body>h1{
 	transition: 0.5s;
 }
 
-.orange_juice_contents h2{
+.espresso_contents h2{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
-.orange_juice_contents p{
+.espresso_contents p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
-/*peach_green_tea*/
-.peach_green_tea{
-	margin-left: 15%;
+/*cappuccino*/
+.cappuccino{
+	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -428,21 +425,21 @@ body>h1{
 	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
-.peach_green_tea:hover{
+.cappuccino:hover{
 	transform: translateY(15px);
 }
 
 
-.peach_green_tea:hover:before{
+.cappuccino:hover:before{
 	opacity: 0.8;
 }
 
-.peach_green_tea:hover .peach_green_tea_contents{
+.cappuccino:hover .cappuccino_contents{
 	opacity: 1;
 	transform: translateY(0);
 }
 
-.peach_green_tea:before{
+.cappuccino:before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -456,7 +453,7 @@ body>h1{
 	opacity: 0;
 }
 
-.imgBox_peach_green_tea{
+.imgBox_cappuccino{
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -465,7 +462,7 @@ body>h1{
 	object-fit:cover;
 }
 
-.peach_green_tea .peach_green_tea_contents{
+.cappuccino .cappuccino_contents{
 	position: relative;
 	z-index: 3;
 	color: #fff;
@@ -474,76 +471,20 @@ body>h1{
 	transition: 0.5s;
 }
 
-.peach_green_tea h2{
+.cappuccino h2{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
-.peach_green_tea p{
+.cappuccino p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
-.orange_juice::after, .peach_green_tea::after{
+.espresso::after, .cappuccino::after{
 	clear: both;
 	content: "";
 	display: table;
-}
-
-/*Apply for large laptops and desktop*/
-@media only screen  and (min-width: 1600px){
-.white_chocolate, .chai_tea_latte, .matcha_latte, 
-.avocado_smoothie, .orange_juice, .peach_green_tea
-{
-	height: 550px;
-}
-
-.white_chocolate .white_chocolate_details .white_chocolate_contents h2{
-	font-size: 1.5em;
-}
-
-.white_chocolate .white_chocolate_details .white_chocolate_contents p{
-    font-size: 1.5em;
-}
-
-.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents h2{
-	font-size: 1.5em;
-}
-
-.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents p{
-   font-size: 1.5em;
-}
-.matcha_latte .matcha_latte_details .matcha_latte_contents h2{
-	font-size: 1.5em;
-}
-
-.matcha_latte .matcha_latte_details .matcha_latte_contents p{
-    font-size: 1.5em;
-}
-
-.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents h2{
-	font-size: 1.5em;
-}
-
-.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents p{
-    font-size: 1.5em;
-}
-
-.orange_juice .orange_juice_details .orange_juice_contents h2{
-	font-size: 1.5em;
-}
-
-.orange_juice .orange_juice_details .orange_juice_contents p{
-    font-size: 1.5em;
-}
-
-.peach_green_tea .peach_green_tea_details .peach_green_tea_contents h2{
-	font-size: 1.5em;
-}
-
-.peach_green_tea .peach_green_tea_details .peach_green_tea_contents p{
-    font-size: 1.5em;
-}
 }

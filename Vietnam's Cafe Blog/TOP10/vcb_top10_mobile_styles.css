@@ -1,0 +1,383 @@
+@charset "utf-8";
+	/*
+		Vietnam's Café Blog
+		
+		Author: Nguyen Vu Hoang Anh & Uyen.N.P Pham
+		
+		Filename:vcb_top10_mobile_styles.css
+	*/
+
+/**Header Style**/
+.header h1{
+	font-size: 6vw;
+	font-weight: 600;
+	margin: 0;
+	text-align: center;
+	font-family: Roboto, sans-serif !important;
+}
+
+.header{
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(top10header.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size:  cover;
+	background-size: cover;
+	width: 100%;
+	height: 45vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display:  -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	text-align: center;
+	color: white;
+
+}
+
+/*Intro*/
+.top10_IntroSection {
+	text-align: left;
+	content: '';
+	display: table;
+	position: relative;
+	margin: 5% 5% auto 5%;
+}
+
+/*Top 5 - Hanoi*/
+.top5_hanoi{
+	width: 90%;
+	margin: 5% 0 10% 5%;
+	padding: 2%;
+	height: auto;
+	border-radius: 2%;
+	background-color: rgba(242, 242, 242, 0.5);
+	box-shadow: 0 10px 10px #000;
+}
+
+.top5_hanoi h2{
+	color: #5C3317;
+	font-size: 5vw;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+.hanoi_top1_cafe,.hanoi_top2_cafe,.hanoi_top3_cafe, 
+.hanoi_top4_cafe,.hanoi_top5_cafe{
+	width: 100%;
+	height: auto;
+	margin-bottom: 3%;
+}
+
+.hanoi_top1_cafe:hover, .hanoi_top2_cafe:hover, .hanoi_top3_cafe:hover,
+.hanoi_top4_cafe:hover, .hanoi_top5_cafe:hover{
+	transition:  1s;
+	box-shadow: 0 10px 20px #000;
+}
+/*hanoi_top1_cafe*/
+#hanoi_top1_image{
+	width:30%;
+	height:30vh;
+}
+#hanoi_top1_image, #hanoi_top1_cafe_Info{
+	float: left;
+}
+
+#hanoi_top1_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#hanoi_top1_cafe_Info h3{
+	font-size: 4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.hanoi_top1_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/*hanoi_top2_cafe*/
+#hanoi_top2_image{
+	width:30%;
+	height:30vh;
+}
+
+#hanoi_top2_image, #hanoi_top2_cafe_Info{
+	float: left;
+}
+
+#hanoi_top2_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#hanoi_top2_cafe_Info h3{
+	font-size: 4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.hanoi_top2_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/*hanoi_top3_cafe*/
+#hanoi_top3_image{
+	width:30%;
+	height:30vh;
+}
+
+#hanoi_top3_image, #hanoi_top3_cafe_Info{
+	float: left;
+}
+
+#hanoi_top3_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#hanoi_top3_cafe_Info h3{
+	font-size: 4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.hanoi_top3_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/*hanoi_top4_cafe*/
+#hanoi_top4_image{
+	width:30%;
+	height:30vh;
+}
+
+#hanoi_top4_image, #hanoi_top4_cafe_Info{
+	float: left;
+}
+
+#hanoi_top4_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#hanoi_top4_cafe_Info h3{
+	font-size: 4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.hanoi_top4_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/*hanoi_top5_cafe*/
+#hanoi_top5_image{
+	width:30%;
+	height:30vh;
+}
+
+#hanoi_top5_image, #hanoi_top5_cafe_Info{
+	float: left;
+}
+
+#hanoi_top5_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#hanoi_top5_cafe_Info h3{
+	font-size: 4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.hanoi_top5_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/*Top 5 - Saigon*/
+.top5_saigon{
+	width: 90%;
+	margin: 5% 0 10% 5%;
+	padding: 2%;
+	height: auto;
+	border-radius: 2%;
+	background-color: rgba(242, 242, 242, 0.5);
+	box-shadow: 0 10px 10px #000;
+}
+
+.top5_saigon h2{
+	color: #5C3317;
+	font-size: 5vw;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+.saigon_top1_cafe,.saigon_top2_cafe,.saigon_top3_cafe, 
+.saigon_top4_cafe,.saigon_top5_cafe{
+	width: 100%;
+	height: auto;
+	margin-bottom: 2%;
+}
+
+.saigon_top1_cafe:hover, .saigon_top2_cafe:hover, .saigon_top3_cafe:hover,
+.saigon_top4_cafe:hover, .saigon_top5_cafe:hover{
+	transition:  1s;
+	box-shadow: 0 10px 20px #000;
+}
+/*saigon_top1_cafe*/
+#saigon_top1_image{
+	width:30%;
+	height:30vh;
+}
+
+#saigon_top1_image, #saigon_top1_cafe_Info{
+	float: left;
+}
+
+#saigon_top1_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#saigon_top1_cafe_Info h3{
+	font-size: 4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.saigon_top1_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/*saigon_top2_cafe*/
+#saigon_top2_image{
+	width:30%;
+	height:30vh;
+}
+#saigon_top2_image, #saigon_top2_cafe_Info{
+	float: left;
+}
+
+#saigon_top2_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#saigon_top2_cafe_Info h3{
+	font-size: 4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.saigon_top2_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/*saigon_top3_cafe*/
+#saigon_top3_image{
+	width:30%;
+	height:30vh;
+}
+#saigon_top3_image, #saigon_top3_cafe_Info{
+	float: left;
+}
+
+#saigon_top3_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#saigon_top3_cafe_Info h3{
+	font-size: 4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.saigon_top3_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/*saigon_top4_cafe*/
+#saigon_top4_image{
+	width:30%;
+	height:30vh;
+}
+#saigon_top4_image, #saigon_top4_cafe_Info{
+	float: left;
+}
+
+#saigon_top4_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#saigon_top4_cafe_Info h3{
+	font-size:4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.saigon_top4_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/*saigon_top5_cafe*/
+#saigon_top5_image{
+	width:30%;
+	height:30vh;
+}
+#saigon_top5_image, #saigon_top5_cafe_Info{
+	float: left;
+}
+
+#saigon_top5_cafe_Info{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 3vw;
+}
+
+#saigon_top5_cafe_Info h3{
+	font-size: 4vw;
+	margin-bottom: 5%;
+	color: #5C3317;
+}
+
+.saigon_top5_cafe::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+

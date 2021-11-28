@@ -13,7 +13,7 @@ html{
 /*Heading Styles*/
 body>h1{
 	color: #fbd2a7;
-	font-size: 55px;
+	font-size: 8vw;
 	font-weight: 700;
 	margin: 5% 0 0 12%;
 	text-shadow: 10px 20px 30px black;
@@ -23,7 +23,6 @@ body>h1{
 /*Cards Styles*/
 /*First Row*/
 .white_chocolate, .chai_tea_latte{
-	float: left;
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
@@ -32,8 +31,8 @@ body>h1{
 .white_chocolate{
 	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -92,20 +91,20 @@ body>h1{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
 .white_chocolate_contents p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
 /*Chai tea latte*/
 .chai_tea_latte{
-	margin-left: 15%;
+	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -164,11 +163,11 @@ body>h1{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
 .chai_tea_latte_contents p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
@@ -180,7 +179,6 @@ body>h1{
 
 /*Second Row*/
 .matcha_latte, .avocado_smoothie{
-	float: left;
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
@@ -189,8 +187,8 @@ body>h1{
 .matcha_latte{
 	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -249,20 +247,20 @@ body>h1{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
 .matcha_latte_contents p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
 /*Avocado Smoothie*/
 .avocado_smoothie{
-	margin-left: 15%;
+	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -321,11 +319,11 @@ body>h1{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
 .avocado_smoothie_contents p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
@@ -337,7 +335,6 @@ body>h1{
 
 /*Third Row*/
 .orange_juice, .peach_green_tea{
-	float: left;
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
@@ -346,8 +343,8 @@ body>h1{
 .orange_juice{
 	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -406,20 +403,20 @@ body>h1{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
 .orange_juice_contents p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
 /*peach_green_tea*/
 .peach_green_tea{
-	margin-left: 15%;
+	margin-left: 12%;
 	margin-bottom: 10%;
-	width: 30%;
-	height: 450px;
+	width: 60vw;
+	height: 60vh;
 	padding: 24px;
 	background: #fff;
 	position: relative;
@@ -478,11 +475,11 @@ body>h1{
 	margin: 0; 
 	letter-spacing: 2px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 }
 .peach_green_tea p{
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 3vw;
 	margin-top: 8px;
 }
 
@@ -490,60 +487,4 @@ body>h1{
 	clear: both;
 	content: "";
 	display: table;
-}
-
-/*Apply for large laptops and desktop*/
-@media only screen  and (min-width: 1600px){
-.white_chocolate, .chai_tea_latte, .matcha_latte, 
-.avocado_smoothie, .orange_juice, .peach_green_tea
-{
-	height: 550px;
-}
-
-.white_chocolate .white_chocolate_details .white_chocolate_contents h2{
-	font-size: 1.5em;
-}
-
-.white_chocolate .white_chocolate_details .white_chocolate_contents p{
-    font-size: 1.5em;
-}
-
-.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents h2{
-	font-size: 1.5em;
-}
-
-.chai_tea_latte .chai_tea_latte_details .chai_tea_latte_contents p{
-   font-size: 1.5em;
-}
-.matcha_latte .matcha_latte_details .matcha_latte_contents h2{
-	font-size: 1.5em;
-}
-
-.matcha_latte .matcha_latte_details .matcha_latte_contents p{
-    font-size: 1.5em;
-}
-
-.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents h2{
-	font-size: 1.5em;
-}
-
-.avocado_smoothie .avocado_smoothie_details .avocado_smoothie_contents p{
-    font-size: 1.5em;
-}
-
-.orange_juice .orange_juice_details .orange_juice_contents h2{
-	font-size: 1.5em;
-}
-
-.orange_juice .orange_juice_details .orange_juice_contents p{
-    font-size: 1.5em;
-}
-
-.peach_green_tea .peach_green_tea_details .peach_green_tea_contents h2{
-	font-size: 1.5em;
-}
-
-.peach_green_tea .peach_green_tea_details .peach_green_tea_contents p{
-    font-size: 1.5em;
-}
 }
