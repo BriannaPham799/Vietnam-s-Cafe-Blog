@@ -18,6 +18,14 @@
 	<link rel="stylesheet" type="text/css" media="screen and (min-width:1200px)" href="vcb_home_styles.css">
 	<link rel="stylesheet" type="text/css" media="screen and (max-width:1100px)" href="vcb_home_mobile_styles.css">
 	<link rel="stylesheet" type="text/css" href="../vcb_reset.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script> 
+		function validateForm() {
+			alert('Message sent!');
+		}
+	</script>
+	
 	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 	<link id="u-theme-google-font" rel="stylesheet" 
 		href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
@@ -29,7 +37,7 @@
 			<img class="header_logo" src="../vcb_logo.png" alt="VCB's logo" >
 			<input type="checkbox" class="menu_btn" id="menu_btn"/>
 			<label class="menu_icon" for="menu_btn"><span class="nav-icon"></span></label>
-			<ul class="headerNavigationBar">
+			<ul id="nav" class="headerNavigationBar">
 				<li><a href="vcb_home.html">HOME</a></li>
 				<li><a href="../HANOi/vcb_hanoi.html">HANOI</a></li>
 				<li><a href="../SAIGON/vcb_saigon.html">SAIGON</a></li>
@@ -57,7 +65,7 @@
 			<a href="../HANOi/vcb_hanoi.html"><img id="hanoiImage" src="home_hanoi.jpg" alt="Hanoi"></a>
 			<div id="hanoiIntro">
 			<h3><a href="../HANOi/vcb_hanoi.html">HA NOI</a></h3>
-			<p>The city maintains a sprawling and engrained everyman's cafe culture. Hanoians makes an art of roasting and brweing, thick, brain-shudderingly strong Robustas.</p>
+			<p>The city maintains a sprawling and engrained everyman's cafe culture. Hanoians makes an art of roasting and brewing, thick, brain-shudderingly strong Robustas.</p>
 			</div>
 		</div>
 		
@@ -119,30 +127,29 @@
 	</section>
 	
 	<section style="color: #111111; background-color: #f2f2f2;">
-	 <p>Contact form</p>
 	<div class="contactFormAll">
         <h1 class="contactTitle">CONTACT US</h1>
 		<div class = "contactFormDiv">
-          <form action="#" method="POST" class="contactForm" style="padding: 4vw" source="custom" name="form">
+		
+          <form action="" method="POST" class="contactForm" style="padding: 4vw" name="form" onsubmit="return validateForm()"  >
             <div class="contactInfo">
               <label for="name-input" class="inputLabel">Name</label>
-              <input type="text" placeholder="Enter your name" id="name-input" name="name" class="guessInput" required="">
+              <input type="text" placeholder="Enter your name" id="name" name="name" class="guessInput" required="">
             </div>
             <div class="contactInfo">
               <label for="email-input" class="inputLabel">Email</label>
-              <input type="email" placeholder="Enter a valid email address" id="email-input" name="email" class="guessInput" required="">
+              <input type="email" placeholder="Enter a valid email address" id="email" name="email" class="guessInput" required="">
             </div>
             <div class="contactInfo">
               <label for="message-input" class="inputLabel">Message</label>
-              <textarea placeholder="Enter your message" rows="4" cols="50" id="message-input" name="message" class="guessInput" required=""></textarea>
+              <textarea placeholder="Enter your message" rows="4" cols="50" id="message" name="message" class="guessInput" required=""></textarea>
             </div>
 			
             <div class="buttonDiv">
-				     <input type="submit" value="Submit" class="submitButton">
+			<button value="submit" class="submitButton">Submit</button>
+			<input id = "submit" type="submit" value="Submit" class="submitHidden">
             </div>
 			
-            <div class="successMessage"> Thank you! Your message has been sent. </div>
-            <div class="errorMessage"> Unable to send your message. Please fix errors then try again. </div>
             <input type="hidden" value="" name="recaptchaResponse">
           </form>
 		 </div>

@@ -43,15 +43,15 @@
 	content: '';
 	display: table;
 	position: relative;
-	margin: 5% 5% auto 5%;
+	margin: 5% 6% auto 6%;
 }
 
 /*Top 5 - Hanoi*/
 .top5_hanoi{
-	width: 90%;
-	margin: 5% 0 10% 5%;
+	width: 88%;
+	margin: 5% 6% 5% 6%;
 	padding: 2%;
-	height: auto;
+	height: 100%;
 	border-radius: 2%;
 	background-color: rgba(242, 242, 242, 0.5);
 	box-shadow: 0 10px 10px #000;
@@ -217,8 +217,8 @@
 
 /*Top 5 - Saigon*/
 .top5_saigon{
-	width: 90%;
-	margin: 5% 0 10% 5%;
+	width: 88%;
+	margin: 5% 6% 5% 6%;
 	padding: 2%;
 	height: auto;
 	border-radius: 2%;

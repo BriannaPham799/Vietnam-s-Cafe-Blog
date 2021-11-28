@@ -192,7 +192,7 @@
 	font-size: 35px;
 }
 #drinkSuggestionsIntro{
-	margin-bottom: 5%;
+	margin-bottom: 7%;
 	font-size: 25px;
 }
 
@@ -332,7 +332,7 @@
 	display: table;
 	clear: both;
 	position: relative;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -364,11 +364,11 @@
 .contactForm {
 	margin-bottom: 20px;
 	padding-left: 20px;
-	width: calc(100% +  20px);
 	align-items: flex-end;
 }
 
 .contactInfo {
+	width: calc(100% +  30px);
 	margin-bottom: 50px;
 	padding-left: 50px;
 	padding-right: 25px;
@@ -452,24 +452,3 @@
 	display: none !important;
 }
 
-.successMessage, .errorMessage {
-	z-index: 1;
-	display: none;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	padding: 20px 0px 20px 0px;
-	border: none;
-}
-
-.successMessage {
-	background: #62C584;
-	}
-	
-.errorMessage {
-	background: #F95D51;
-
-}

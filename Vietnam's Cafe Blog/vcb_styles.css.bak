@@ -23,31 +23,21 @@ header nav{
 	background-color: black;
 	overflow:hidden;
 }
-
-.headerNavigationBar{
-	list-style-type: none;
-	float:right;
-	margin-top: 3.5%;
-	margin-right: 9.5%;
-	display: block;
-
+#nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+}
+#nav li {
+float:left;
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
 }
 
-.headerNavigationBar>li{
-	display: inline-block;
-	font-size: 1.25rem;
-	padding-left: 5px;
-	padding-right: 100px;
-}
-
-.headerNavigationBar>li>a{
-	text-decoration: none;
-	padding: 12px 2px;
-	text-align: center;
-	color: white;
-	display: block;
-	font-weight: bold;
-}
 
 .headerNavigationBar>li>a:hover{
 	color: rgb(181, 184, 136) ;
