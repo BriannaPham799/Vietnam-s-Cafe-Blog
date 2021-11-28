@@ -272,7 +272,7 @@ section>p{
 	display: table;
 	clear: both;
 	position: relative;
-	width: 50%;
+	width: 90%;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -290,7 +290,7 @@ section>p{
 }
 
 .contactTitle {
-	font-size: 35px;
+	font-size: 7vw;
 	font-family: inherit;
 	font-weight: 700;
 	margin: 60px auto 0;
@@ -310,7 +310,7 @@ section>p{
 
 .contactInfo {
 	margin-bottom: 50px;
-	padding-left: 50px;
+	padding-left: 5%;
 	padding-right: 25px;
 	text-align: start;
 }
@@ -376,7 +376,7 @@ section>p{
   user-select: none;
   vertical-align: middle;
   text-align: center;
-  padding: 10px 30px;
+  padding: 10px 20px;
   align-self: flex-start;
   margin-top: 1px;
   margin-bottom: 1px;
@@ -386,6 +386,7 @@ section>p{
   border-style: solid;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-right: 8%;
 }
 
 .submitHidden {
