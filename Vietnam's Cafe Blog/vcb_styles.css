@@ -124,6 +124,8 @@ header nav{
 /*Apply for large laptops and desktop*/
 @media only screen  and (min-width: 1600px){
 .headerNavigationBar {
+	width:1200px;
+	margin-left:-500px;
 	list-style-type: none;
 	float:right;
 	margin-top: 3.5%;
