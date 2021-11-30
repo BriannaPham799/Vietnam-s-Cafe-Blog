@@ -16,19 +16,18 @@ body{
 
 .coffee_based{
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .coffee_based_images_slider{
 	position: relative;
 	width: 50vw;
 	height: 50vh;
-	margin: 30% 10% 10% 10%;
+	margin: 20% 10% 10% 10%;
 	box-shadow: 0 10px 10px #000;
 	background-image: url(COFFEE_BASED/vietnam_traditional_coffee.jpg);
 	background-size: cover;
@@ -121,23 +120,15 @@ body{
 	margin-left: 34%;
 }
 
-.coffee_based_text button:hover{
-	transform: scale(1.2);
-	background-color: transparent;
-	border: 2px solid #fbd2a7;
-	color: #fbd2a7;
-	transition: .4s;
-	cursor: pointer;
-}
 
 
 /*Non-coffee*/
 
 .non-coffee{
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	display: flex;
-	margin-bottom: 60%;
+	margin-bottom: 30%;
 }
 
 .non-coffee_images_slider{
@@ -179,7 +170,7 @@ body{
 		background-position: center;
 	}
 	100%{
-		background-image: url(NON-COFFEED/peach_green_tea.jpg);
+		background-image: url(NON-COFFEE/peach_green_tea.jpg);
 		background-size: cover;
 		background-position: center;
 	}
@@ -234,11 +225,3 @@ body{
 	margin-left: 34%;
 }
 
-.non-coffee_text button:hover{
-	transform: scale(1.2);
-	background-color: transparent;
-	border: 2px solid #fbd2a7;
-	color: #fbd2a7;
-	transition: .4s;
-	cursor: pointer;
-}
