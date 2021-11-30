@@ -161,13 +161,14 @@ footer nav{
 	float:right;
 	margin-top: 2%;
 	display: block;
+	padding-right:1.5%;
 
 }
 
 .footerNavigationBar li{
 	display: inline-block;
 	font-size: 20px;
-	padding-left: 60px;
+	padding-left: 30px;
 	padding-right: 30px;
 }
 
