@@ -41,6 +41,7 @@
 }
 
 /**Body Style**/
+
 /**Hanoi**/
 #hanoiImage, #hanoiIntro{
 	float: left;
@@ -230,7 +231,7 @@
 /**Lastest Reviews**/
 .home_LastestReviews{
 	padding: 5% 0 5% 8%;
-	font-size: 25px;
+	font-size: 28px;
 	background-color: rgb(119, 80, 73);
 	width: 100%;
 	height: 50%;
