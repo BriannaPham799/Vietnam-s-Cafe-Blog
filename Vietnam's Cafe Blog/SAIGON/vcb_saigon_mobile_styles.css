@@ -57,17 +57,16 @@
 
 #cafe1Image, .cafe1Infor{
 	float: left;
-	width: 100%;
 }
 #cafe1Image{
 	height:100%;
-	width: 80%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	width: 90%; 
+	margin-bottom: 50%;
 }
 
 .cafe1Infor{
-	margin: 10% 10% 10% 0;
+	margin: 5% 2% 5% 0;
+	width: 100%;
 	font-size: 2vw;
 }
 
