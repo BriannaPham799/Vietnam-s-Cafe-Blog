@@ -10,8 +10,7 @@
 * {box-sizing: border-box}
 body {
 	font-family: Arial, sans-serif; 
-	margin:0;
-	font-weight: 0;}
+	margin:0;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
@@ -19,7 +18,7 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: 3% auto 1% auto;
+  margin: 3% auto 0.5% auto;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -99,15 +98,18 @@ img {vertical-align: middle;}
 	max-width: 1000px;
 	position: relative;
 	margin: 2% auto 5% auto;
-  font-size: 1.2rem;
+	font-size: 1.1rem;
+	font-weight: normal;
 	}
 	
 .nameHeader {
-	font-size: 28px;
+	font-size: 1.75rem;
 	text-align: center;
 	text-transform: uppercase;
 	margin-top: 2%;
 	margin-bottom: 1%;
+	font-family: Roboto, sans-serif;
+	color: #862d2d;
 	}
 
 /*Apply for large laptops and desktop*/
@@ -123,11 +125,12 @@ img {vertical-align: middle;}
 	max-width: 1200px;
 	position: relative;
 	margin: auto auto 5% auto;
-	font-size: 1.5rem
+	font-size: 1.5rem;
+	font-weight: normal;
 }
 
 .nameHeader {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	margin-bottom: 1%;
 	}
 }

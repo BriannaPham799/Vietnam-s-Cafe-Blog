@@ -281,14 +281,17 @@
 #lastestReviewsImage1{
 	width: 100%;
 	height: 450px;
+	object-fit: cover;
 }
 #lastestReviewsImage2{
 	width: 100%;
 	height: 450px;
+	object-fit: cover;
 }
 #lastestReviewsImage3{
 	width: 100%;
 	height: 450px;
+	object-fit: cover;
 }
 .lastestReviewsTitle1 a, .lastestReviewsTitle2 a, .lastestReviewsTitle3 a{
 	text-decoration: none;

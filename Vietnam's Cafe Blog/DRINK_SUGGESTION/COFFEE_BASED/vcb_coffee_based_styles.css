@@ -9,15 +9,17 @@
 	*/
 
 html{
-	background-color: rgba(90, 44, 8, 0.8) !important;
+	background-color: #4d3200!important;
 }
 /*Heading Styles*/
 body>h1{
 	color: #fbd2a7;
-	font-size: 55px;
+	font-size: 2.5rem;
 	font-weight: 700;
 	margin: 5% 0 0 12%;
 	text-shadow: 10px 20px 30px black;
+	text-transform: uppercase;
+	font-family: Roboto, sans-serif;
 }
 
 /*First Row*/

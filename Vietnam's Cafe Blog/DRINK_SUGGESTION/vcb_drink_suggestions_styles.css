@@ -15,7 +15,7 @@
 .coffee_based{
 	width: 100%;
 	height: 100vh;
-	background-color:rgba(90, 44, 8, 0.8);
+	background-color:#4d3200;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -71,6 +71,7 @@
 	width: 550px;
 	max-width: 100%;
 	padding: 0 10px;
+	font-family: Roboto, sans-serif;
 }
 
 .coffee_based_content{
@@ -85,23 +86,24 @@
 
 .coffee_based_text h1{
 	color: #fbd2a7;
-	font-size: 45px;
-	margin-bottom: 20px;
-	text-transform: capitalize;
+	font-size: 1.75rem;
+	margin-bottom: 1%;
+	text-transform: uppercase;
+	font-family: Roboto, sans-serif;
 }
 
 
 .coffee_based_text p{
 	color: #d7d3cf;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 40px;
 	letter-spacing: 1px;
-	margin-bottom: 45px;
+	margin-bottom: 5%;
 }
 
 .coffee_based_text p strong{
 	color: #f0ece8;
-	font-size: 16px;
+	
 }
 .coffee_based_text button{
 	background-color:#fbd2a7;
@@ -112,6 +114,7 @@
 	border-radius: 30px;
 	font-size: 17px;
 	font-weight: bold;
+	font-family: Roboto, sans-serif;
 }
 
 .coffee_based_text button:hover{
@@ -128,7 +131,7 @@
 .non-coffee{
 	width: 100%;
 	height: 100vh;
-	background-color:rgba(90, 44, 8, 0.8);
+	background-color:#4d3200;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -184,6 +187,7 @@
 	width: 550px;
 	max-width: 100%;
 	padding: 0 10px;
+	font-family: Roboto, sans-serif;
 }
 
 .non-coffee_content{
@@ -198,18 +202,18 @@
 
 .non-coffee_text h1{
 	color: #fbd2a7;
-	font-size: 45px;
-	margin-bottom: 20px;
-	text-transform: capitalize;
+	font-size: 1.75rem;
+	margin-bottom: 1%;
+	text-transform: uppercase;
 }
 
 
 .non-coffee_text p{
 	color: #d7d3cf;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 40px;
 	letter-spacing: 1px;
-	margin-bottom: 45px;
+	margin-bottom: 5%;	
 }
 
 

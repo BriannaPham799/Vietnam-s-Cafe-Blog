@@ -59,9 +59,11 @@
 
 .top5_hanoi h2{
 	color: #5C3317;
-	font-size: 30px;
+	font-size: 1.6rem;
 	font-weight: bold;
 	margin-bottom: 2%;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .hanoi_top1_cafe,.hanoi_top2_cafe,.hanoi_top3_cafe, 
@@ -80,21 +82,25 @@
 #hanoi_top1_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;
 }
 #hanoi_top1_image, #hanoi_top1_cafe_Info{
 	float: left;
 }
 
 #hanoi_top1_cafe_Info{
-	margin-top: 10%;
+	margin-top: 6%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #hanoi_top1_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
+	
 }
 
 .hanoi_top1_cafe::after{
@@ -107,6 +113,7 @@
 #hanoi_top2_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;
 }
 
 #hanoi_top2_image, #hanoi_top2_cafe_Info{
@@ -114,15 +121,17 @@
 }
 
 #hanoi_top2_cafe_Info{
-	margin-top: 10%;
+	margin-top: 6%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #hanoi_top2_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .hanoi_top2_cafe::after{
@@ -135,6 +144,7 @@
 #hanoi_top3_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;
 }
 
 #hanoi_top3_image, #hanoi_top3_cafe_Info{
@@ -142,15 +152,17 @@
 }
 
 #hanoi_top3_cafe_Info{
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #hanoi_top3_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .hanoi_top3_cafe::after{
@@ -163,6 +175,7 @@
 #hanoi_top4_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;
 }
 
 #hanoi_top4_image, #hanoi_top4_cafe_Info{
@@ -170,15 +183,17 @@
 }
 
 #hanoi_top4_cafe_Info{
-	margin-top: 10%;
+	margin-top: 6%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #hanoi_top4_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .hanoi_top4_cafe::after{
@@ -191,6 +206,7 @@
 #hanoi_top5_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;
 }
 
 #hanoi_top5_image, #hanoi_top5_cafe_Info{
@@ -198,15 +214,17 @@
 }
 
 #hanoi_top5_cafe_Info{
-	margin-top: 10%;
+	margin-top: 6%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #hanoi_top5_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .hanoi_top5_cafe::after{
@@ -228,7 +246,8 @@
 
 .top5_saigon h2{
 	color: #5C3317;
-	font-size: 30px;
+	font-size: 1.6rem;
+	font-family: Roboto, sans-serif;
 	font-weight: bold;
 	margin-bottom: 2%;
 }
@@ -249,6 +268,7 @@
 #saigon_top1_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;	
 }
 
 #saigon_top1_image, #saigon_top1_cafe_Info{
@@ -256,15 +276,17 @@
 }
 
 #saigon_top1_cafe_Info{
-	margin-top: 10%;
+	margin-top: 6%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #saigon_top1_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .saigon_top1_cafe::after{
@@ -277,21 +299,24 @@
 #saigon_top2_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;
 }
 #saigon_top2_image, #saigon_top2_cafe_Info{
 	float: left;
 }
 
 #saigon_top2_cafe_Info{
-	margin-top: 10%;
+	margin-top: 6%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #saigon_top2_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .saigon_top2_cafe::after{
@@ -304,21 +329,24 @@
 #saigon_top3_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;
 }
 #saigon_top3_image, #saigon_top3_cafe_Info{
 	float: left;
 }
 
 #saigon_top3_cafe_Info{
-	margin-top: 10%;
+	margin-top: 6%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #saigon_top3_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .saigon_top3_cafe::after{
@@ -331,21 +359,24 @@
 #saigon_top4_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;
 }
 #saigon_top4_image, #saigon_top4_cafe_Info{
 	float: left;
 }
 
 #saigon_top4_cafe_Info{
-	margin-top: 10%;
+	margin-top: 6%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #saigon_top4_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .saigon_top4_cafe::after{
@@ -358,21 +389,24 @@
 #saigon_top5_image{
 	width:30%;
 	height:400px;
+	object-fit: cover;
 }
 #saigon_top5_image, #saigon_top5_cafe_Info{
 	float: left;
 }
 
 #saigon_top5_cafe_Info{
-	margin-top: 10%;
+	margin-top: 6%;
 	margin-left: 10%;
 	font-size: 25px;
 }
 
 #saigon_top5_cafe_Info h3{
-	font-size: 30px;
-	margin-bottom: 5%;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
 	color: #5C3317;
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
 }
 
 .saigon_top5_cafe::after{
