@@ -217,7 +217,10 @@
 }
 .lastestReviewsTitle1{
 	margin-left: 3%;
-	margin-top: 15%;
+	margin-top: 20%;
+}
+.lastestReviewsTitle1:visited{
+	border-bottom-style: solid 2px white;
 }
 #lastestReviewsImage2, .lastestReviewsTitle2{
 	float: left;
