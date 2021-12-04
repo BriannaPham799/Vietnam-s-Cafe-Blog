@@ -105,7 +105,7 @@
 /*hanoi_top2_cafe*/
 #hanoi_top2_image{
 	width:30vw;
-	height:35vw;
+	height:auto;
 }
 
 #hanoi_top2_image, #hanoi_top2_cafe_Info{
@@ -159,7 +159,7 @@
 /*hanoi_top4_cafe*/
 #hanoi_top4_image{
 	width:30vw;
-	height:35vw;
+	height:auto;
 }
 
 #hanoi_top4_image, #hanoi_top4_cafe_Info{
