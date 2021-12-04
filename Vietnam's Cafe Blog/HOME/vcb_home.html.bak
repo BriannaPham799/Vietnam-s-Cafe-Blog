@@ -111,17 +111,17 @@
 		<div class="lastestReviews">
 			<div class="lastestReviews1">
 				<a href="../REVIEWS/loadingt_review.html"><img id="lastestReviewsImage1" src="loadingt_cafe1.jpg" alt="Review Title1"></a>
-				<p class="lastestReviewsTitle1"><a href="../REVIEWS/loadingt_review.html">Loading T Cafe</a></p>
+				<p class="lastestReviewsTitle1"><a href="#">Loading T Cafe</a></p>
 			</div>
 			
 			<div class="lastestReviews2">
 				<a href="../REVIEWS/vcb_reviewtemplate.html"><img id="lastestReviewsImage2" src="acid8_cafe3.jpg" alt="Review Title1"></a>
-				<p class="lastestReviewsTitle2"><a href="../REVIEWS/vcb_reviewtemplate.html">ACID8 Specialty Coffee</a></p>
+				<p class="lastestReviewsTitle2"><a href="#">ACID8 Specialty Coffee</a></p>
 			</div>
 
 			<div class="lastestReviews3">
 				<a href="../REVIEWS/vcb_reviewtemplate.html"><img id="lastestReviewsImage3" src="modihoi_cafe01.jpg" alt="Review Title3"></a>
-				<p class="lastestReviewsTitle3"><a href="../REVIEWS/vcb_reviewtemplate.html">Mơ đi Hội</a></p>
+				<p class="lastestReviewsTitle3"><a href="#">Mơ đi Hội</a></p>
 			</div>
 	   </div>
 	</section>
